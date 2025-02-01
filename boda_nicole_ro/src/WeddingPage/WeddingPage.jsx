@@ -4,7 +4,7 @@ import styles from "./WeddingPage.module.css";
 export const WeddingPage = () => {
   const [name, setName] = useState("");
   const [allergy, setAllergy] = useState("");
-  const phoneNumber = "+593 0939500816"; // Reemplaza con tu número de WhatsApp
+  const phoneNumber = "5930939500816"; // Reemplaza con tu número de WhatsApp
 
   const handleConfirmAttendance = () => {
     const message = `Hola, soy ${name}. Confirmo mi asistencia a la boda.`;
