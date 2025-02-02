@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: #6d4c41;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
