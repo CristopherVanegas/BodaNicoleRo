@@ -3,6 +3,9 @@ import InvitationCard from './components/InvitationCard/InvitationCard';
 import Location from './components/Location/Location';
 import ConfirmAttendance from './components/ConfirmAttendance/ConfirmAttendance';
 import GiftSection from './components/GiftSection/GiftSection';
+import Itinerary from './components/Itinerary/Itinerary';
+import Gallery from './components/Gallery/Gallery';
+import Countdown from './components/Countdown/Countdown';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Location />
       <ConfirmAttendance />
       <GiftSection />
+      <Itinerary />
+      <Gallery />
+      <Countdown />
     </div>
   );
 }

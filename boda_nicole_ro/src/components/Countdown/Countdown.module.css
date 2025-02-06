@@ -1,0 +1,49 @@
+.countdownContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #d72638;
+    margin-bottom: 20px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .timeBox {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 80px;
+  }
+  
+  .number {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .label {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* 📌 Ajuste para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .timer {
+      flex-wrap: wrap;
+    }
+  
+    .timeBox {
+      min-width: 70px;
+      padding: 10px;
+    }
+  }
+  
