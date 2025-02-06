@@ -9,16 +9,18 @@ const GiftSection = () => {
         Si deseas obsequiarnos un regalo, te agradecemos tu apoyo a través de un sobre sellado o una transferencia a las siguientes cuentas:
       </p>
 
-      <div className={styles.accountBox}>
-        <h3>🏦 Banco XYZ</h3>
-        <p><strong>Número de Cuenta:</strong> 1234567890</p>
-        <p><strong>Titular:</strong> Nombre del Novio/a</p>
-      </div>
+      <div className={styles.accountsContainer}>
+        <div className={styles.accountBox}>
+          <h3>🏦 Banco XYZ</h3>
+          <p><strong>Número de Cuenta:</strong> 1234567890</p>
+          <p><strong>Titular:</strong> Nombre del Novio/a</p>
+        </div>
 
-      <div className={styles.accountBox}>
-        <h3>🏦 Banco ABC</h3>
-        <p><strong>Número de Cuenta:</strong> 0987654321</p>
-        <p><strong>Titular:</strong> Nombre del Novio/a</p>
+        <div className={styles.accountBox}>
+          <h3>🏦 Banco ABC</h3>
+          <p><strong>Número de Cuenta:</strong> 0987654321</p>
+          <p><strong>Titular:</strong> Nombre del Novio/a</p>
+        </div>
       </div>
 
       <div className={styles.envelope}></div>
