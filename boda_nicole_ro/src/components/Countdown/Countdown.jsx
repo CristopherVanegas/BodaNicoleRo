@@ -27,7 +27,6 @@ const Countdown = () => {
 
   return (
     <section className={styles.countdownContainer}>
-      <h2 className={styles.title}>Cuenta Regresiva</h2>
       <div className={styles.timer}>
         <div className={styles.timeBox}>
           <span className={styles.number}>{timeLeft.days}</span>

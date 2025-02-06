@@ -4,12 +4,6 @@
     background-color: #f3f3f3;
   }
   
-  .title {
-    font-size: 2rem;
-    color: #d72638;
-    margin-bottom: 20px;
-  }
-  
   .timer {
     display: flex;
     justify-content: center;
