@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <PassportSection />
+      <Countdown />
       <InvitationCard />
       <Location />
       <ConfirmAttendance />
       <GiftSection />
       <Itinerary />
       <Gallery />
-      <Countdown />
     </div>
   );
 }
