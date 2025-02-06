@@ -1,0 +1,45 @@
+.locationContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .locationBox {
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #d72638;
+  }
+  
+  p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .mapButton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    color: white;
+    background-color: #d72638;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .mapButton:hover {
+    background-color: #b51d2d;
+  }
+  

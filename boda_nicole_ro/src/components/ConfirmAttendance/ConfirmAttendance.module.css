@@ -1,0 +1,27 @@
+.attendanceContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff5f5;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .confirmButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #d72638;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .confirmButton:hover {
+    background-color: #b51d2d;
+  }
+  

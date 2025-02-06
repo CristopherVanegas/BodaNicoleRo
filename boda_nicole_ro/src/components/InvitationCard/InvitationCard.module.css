@@ -1,0 +1,29 @@
+.invitationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff5f5;
+  }
+  
+  .invitationBox {
+    border: 2px dashed #d72638;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    color: #d72638;
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+  }
+  

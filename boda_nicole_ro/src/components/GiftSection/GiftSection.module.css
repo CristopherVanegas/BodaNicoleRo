@@ -1,0 +1,45 @@
+.giftContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fdf5e6;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #d72638;
+    margin-bottom: 15px;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .accountBox {
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accountBox h3 {
+    color: #d72638;
+  }
+  
+  .accountBox p {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .envelope {
+    width: 100px;
+    height: 60px;
+    background-color: #d72638;
+    position: relative;
+    margin: 20px auto;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  
