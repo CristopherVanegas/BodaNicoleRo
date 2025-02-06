@@ -6,6 +6,7 @@ import GiftSection from './components/GiftSection/GiftSection';
 import Itinerary from './components/Itinerary/Itinerary';
 import Gallery from './components/Gallery/Gallery';
 import Countdown from './components/Countdown/Countdown';
+import Summary from './components/Summary/Summary';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <GiftSection />
       <Itinerary />
       <Gallery />
+      <Summary />
     </div>
   );
 }
