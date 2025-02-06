@@ -38,7 +38,7 @@ const ModalForm = ({ onClose }) => {
   };
 
   const sendWhatsAppMessage = (data) => {
-    const phoneNumber = "5930939500816";
+    const phoneNumber = "593939500816";
     const message = `🎉 Confirmación de asistencia 🎉\n\n📛 Nombre: ${data.nombre}\n✅ Asistirá: ${data.asistencia}\n⚠️ Alergias: ${data.alergias || 'Ninguna'}\n🎵 Canción: ${data.cancion || 'No especificada'}\n💬 Comentarios: ${data.comentarios || 'Sin comentarios'}\n\n¡Gracias por confirmar tu asistencia! Nos vemos en la boda. 💍✨`;
 
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
