@@ -1,7 +1,7 @@
 .countdownContainer {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
   }
   
   .timer {
@@ -21,11 +21,13 @@
   
   .number {
     font-size: 2rem;
+    font-family: var(--font-body);
     color: #333;
   }
   
   .label {
     font-size: 1rem;
+    font-family: var(--font-body);
     color: #777;
   }
   

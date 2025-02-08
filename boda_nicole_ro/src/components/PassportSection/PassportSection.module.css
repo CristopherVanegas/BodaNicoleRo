@@ -1,7 +1,14 @@
 .passportContainer {
   text-align: center;
-  padding: 50px 20px;
-  background-color: #fdf5e6;
+  /* padding: 50px 20px; */
+  background-color: var(--color-bg-general);
+
+  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+  min-height: 100vh; /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageContainer {
@@ -13,13 +20,27 @@
 }
 
 .title {
-  font-size: 2rem;
-  color: #333;
+  font-size: 3rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
 }
-
+.h3 {
+  font-size: 1rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+}
 .subtitle {
-  font-size: 1.5rem;
-  color: #777;
+  font-size: 2.5rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0px;
 }
 
 .text {

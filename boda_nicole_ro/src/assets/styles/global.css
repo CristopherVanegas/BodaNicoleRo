@@ -1,3 +1,5 @@
+@import url('../../assets/styles/variables.css');
+
 /* Ocultar scrollbar en navegadores Webkit (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
     display: none;
@@ -6,4 +8,5 @@
   /* Evitar el desplazamiento horizontal */
   body {
     overflow-x: hidden;
+    margin: 0;
   }

@@ -4,6 +4,13 @@
     align-items: center;
     padding: 50px 20px;
     background-color: #fff5f5;
+
+    /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .invitationBox {

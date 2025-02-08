@@ -29,20 +29,11 @@ const ModalForm = ({ onClose }) => {
       });
 
       alert("Confirmación enviada con éxito!");
-      sendWhatsAppMessage(formData);
       onClose();
     } catch (error) {
       console.error("Error al enviar datos:", error);
       alert("Hubo un problema al enviar la confirmación.");
     }
-  };
-
-  const sendWhatsAppMessage = (data) => {
-    const phoneNumber = "593939500816";
-    const message = `🎉 Confirmación de asistencia 🎉\n\n📛 Nombre: ${data.nombre}\n✅ Asistirá: ${data.asistencia}\n⚠️ Alergias: ${data.alergias || 'Ninguna'}\n🎵 Canción: ${data.cancion || 'No especificada'}\n💬 Comentarios: ${data.comentarios || 'Sin comentarios'}\n\n¡Gracias por confirmar tu asistencia! Nos vemos en la boda. 💍✨`;
-
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, "_blank");
   };
 
   return (

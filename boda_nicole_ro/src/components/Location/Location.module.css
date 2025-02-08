@@ -2,6 +2,13 @@
     text-align: center;
     padding: 50px 20px;
     background-color: #f3f3f3;
+
+    /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .title {
