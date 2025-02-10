@@ -17,7 +17,7 @@ const PassportSection = () => {
         <p className={styles.text2}>14 años juntos</p>
       </div>
 
-      <svg width="500" height="300" viewBox="0 0 500 300">
+      <svg width="400" height="300" viewBox="0 0 500 300">
         <defs>
           <path id="curve" d="M 50,150 A 100,100 0 1,1 450,150 A 100,100 0 1,1 50,150" />
         </defs>
