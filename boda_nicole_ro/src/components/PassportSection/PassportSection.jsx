@@ -1,16 +1,41 @@
-import 'react';
-import styles from './PassportSection.module.css';
-import Countdown from '../Countdown/Countdown';
+import "react";
+import styles from "./PassportSection.module.css";
+import Countdown from "../Countdown/Countdown";
 
 const PassportSection = () => {
   return (
     <section className={styles.passportContainer}>
-      <div className={styles.imageContainer}> {/* Aquí irá la imagen circular */} </div>
+      <div className={styles.imageContainer}>
+        {" "}
+        {/* Aquí irá la imagen circular */}{" "}
+      </div>
       <h1 className={styles.title}>Pasaporte</h1>
       <h2 className={styles.h3}>A la boda de</h2>
       <h2 className={styles.subtitle}>Nicole & Diego</h2>
-      <p className={styles.text}>Después de [num de años] juntos</p>
-      <p className={styles.invitationText}>&quot;Frase para invitar a la boda&quot;</p>
+      <div className={styles.textContainer}>
+        <p className={styles.text1}>Después de</p>
+        <p className={styles.text2}>14 años juntos</p>
+      </div>
+
+      <svg width="500" height="300" viewBox="0 0 500 300">
+        <defs>
+          <path id="curve" d="M 50,150 A 100,100 0 1,1 450,150 A 100,100 0 1,1 50,150" />
+        </defs>
+
+        <text fontFamily="Arial" fontSize="30" fill="black">
+          <textPath href="#curve" className={styles.h3}>
+            comenzamos un nuevo viaje
+          </textPath>
+        </text>
+      </svg>
+
+
+      {/* <div className={styles.curvedTextContainer}>
+        <p className={styles.textCurve}>comenzamos un nuevo viaje</p>
+      </div> */}
+      <p className={styles.invitationText}>
+        prepara tus maletas y acompáñanos en este viaje
+      </p>
       <Countdown />
     </section>
   );

@@ -1,65 +1,70 @@
 .giftContainer {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #fdf5e6;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fdf5e6;
 
-    /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-    min-height: 100vh; /* Ocupa toda la pantalla */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title {
-    font-size: 2rem;
-    color: #d72638;
-    margin-bottom: 15px;
-  }
-  
-  .text {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #555;
-  }
-  
-  /* Contenedor flexible para las cuentas */
+  /* padding: 50px 20px; */
+  background-color: var(--color-bg-general);
+
+  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+  min-height: 100vh;
+  /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #d72638;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Contenedor flexible para las cuentas */
+.accountsContainer {
+  display: flex;
+  flex-direction: column;
+  /* Por defecto, en móviles será vertical */
+  align-items: center;
+  gap: 20px;
+}
+
+/* Estilos para cada cuenta bancaria */
+.accountBox {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.accountBox h3 {
+  color: #d72638;
+}
+
+.accountBox p {
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Sobrecarga para pantallas grandes */
+@media (min-width: 768px) {
   .accountsContainer {
-    display: flex;
-    flex-direction: column; /* Por defecto, en móviles será vertical */
-    align-items: center;
-    gap: 20px;
+    flex-direction: row;
+    /* En pantallas grandes será horizontal */
+    justify-content: center;
   }
-  
-  /* Estilos para cada cuenta bancaria */
+
   .accountBox {
-    background-color: white;
-    padding: 20px;
-    width: 100%;
-    max-width: 350px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    max-width: 300px;
   }
-  
-  .accountBox h3 {
-    color: #d72638;
-  }
-  
-  .accountBox p {
-    color: #333;
-    margin: 5px 0;
-  }
-  
-  /* Sobrecarga para pantallas grandes */
-  @media (min-width: 768px) {
-    .accountsContainer {
-      flex-direction: row; /* En pantallas grandes será horizontal */
-      justify-content: center;
-    }
-  
-    .accountBox {
-      max-width: 300px;
-    }
-  }
-  
+}

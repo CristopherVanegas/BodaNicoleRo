@@ -2,11 +2,11 @@
 
 /* Ocultar scrollbar en navegadores Webkit (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Evitar el desplazamiento horizontal */
-  body {
-    overflow-x: hidden;
-    margin: 0;
-  }
+  display: none;
+}
+
+/* Evitar el desplazamiento horizontal */
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
