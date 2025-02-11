@@ -14,8 +14,8 @@
 }
 
 .imageContainer {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-color: #ddd;
   border-radius: 50%;
   margin: 0 auto 20px;
@@ -62,13 +62,6 @@
   font-size: 3rem;
   margin-top: 10px;
   font-family: var(--font-title2);
-}
-
-.curvedTextContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .textCurve {
