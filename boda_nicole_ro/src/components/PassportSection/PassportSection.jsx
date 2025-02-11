@@ -2,6 +2,7 @@ import "react";
 import styles from "./PassportSection.module.css";
 import Countdown from "../Countdown/Countdown";
 import logoNovios from '../../assets/images/logo/logo-circle.png';
+import imagenNovios1Circle from '../../assets/images/novios/1-circle.png';
 
 const PassportSection = () => {
   console.log(logoNovios);
@@ -16,7 +17,9 @@ const PassportSection = () => {
         <p className={styles.text2}>14 años juntos</p>
       </div>
 
-      <svg width="400" height="300" viewBox="0 0 500 300">
+      <img className={styles.imageNovios1Container} src={imagenNovios1Circle} alt="Logo Novios 1" />
+
+      {/* <svg width="400" height="300" viewBox="0 0 500 300">
         <defs>
           <path id="curve" d="M 50,150 A 100,100 0 1,1 450,150 A 100,100 0 1,1 50,150" />
         </defs>
@@ -26,12 +29,8 @@ const PassportSection = () => {
             comenzamos un nuevo viaje
           </textPath>
         </text>
-      </svg>
+      </svg> */}
 
-
-      {/* <div className={styles.curvedTextContainer}>
-        <p className={styles.textCurve}>comenzamos un nuevo viaje</p>
-      </div> */}
       <p className={styles.invitationText}>
         prepara tus maletas y acompáñanos en este viaje
       </p>
