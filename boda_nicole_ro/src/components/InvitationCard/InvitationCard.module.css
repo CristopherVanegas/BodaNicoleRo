@@ -71,9 +71,33 @@
 }
 
 .title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--color-title);
   margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.linea {
+  border-bottom: 2px solid var(--color-title);
+  padding-bottom: 5px;
+}
+
+.textContent p {
+  text-align: start;
+  font-size: medium;
+  font-family: var(--font-simple);
+}
+
+.invitationContent {
+  position: relative;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 10%;
+  right: 20px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .footer {
