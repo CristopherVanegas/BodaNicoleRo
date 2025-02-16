@@ -2,7 +2,6 @@ import "react";
 import styles from "./PassportSection.module.css";
 import Countdown from "../Countdown/Countdown";
 import logoNovios from '../../assets/images/logo/logo-circle.png';
-import imagenNovios1Circle from '../../assets/images/novios/1-circle.png';
 
 const PassportSection = () => {
   console.log(logoNovios);

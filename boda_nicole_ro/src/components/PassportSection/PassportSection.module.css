@@ -64,14 +64,6 @@
   font-family: var(--font-title2);
 }
 
-.imageNovios1Container {
-  width: 250px;
-  height: 250px;
-  background-color: #ddd;
-  border-radius: 24%;
-  margin: 40px auto;
-}
-
 .invitationText {
   width: 400px;
   font-size: 3rem;
