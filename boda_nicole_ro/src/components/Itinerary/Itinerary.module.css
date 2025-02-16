@@ -16,15 +16,20 @@
 }
 
 .title {
-  font-size: 2rem;
-  color: #d72638;
-  margin-bottom: 15px;
+  font-size: 3rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .text {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #555;
+  width: 400px;
+  font-size: 1rem;
+  color: var(--color-title);
+  font-family: var(--font-simple);
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .imageContainer {
