@@ -16,21 +16,6 @@ const PassportSection = () => {
         <p className={styles.text1}>Después de</p>
         <p className={styles.text2}>14 años juntos</p>
       </div>
-
-      <img className={styles.imageNovios1Container} src={imagenNovios1Circle} alt="Logo Novios 1" />
-
-      {/* <svg width="400" height="300" viewBox="0 0 500 300">
-        <defs>
-          <path id="curve" d="M 50,150 A 100,100 0 1,1 450,150 A 100,100 0 1,1 50,150" />
-        </defs>
-
-        <text fontFamily="Arial" fontSize="30" fill="black">
-          <textPath href="#curve" className={styles.h3}>
-            comenzamos un nuevo viaje
-          </textPath>
-        </text>
-      </svg> */}
-
       <p className={styles.invitationText}>
         prepara tus maletas y acompáñanos en este viaje
       </p>

@@ -22,7 +22,7 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--color-title);
   font-family: var(--font-title);
   font-weight: 700;
@@ -30,7 +30,7 @@
 }
 
 .h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--color-title);
   font-family: var(--font-simple);
   text-transform: uppercase;
@@ -38,7 +38,7 @@
 }
 
 .subtitle {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--color-title);
   font-family: var(--font-title);
   font-weight: 700;
@@ -47,19 +47,19 @@
 }
 
 .textContainer {
-  width: 300px;
+  width: 400px;
 }
 
 .text1 {
   text-align: start;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 10px;
   font-family: var(--font-title2);
 }
 
 .text2 {
   text-align: end;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 10px;
   font-family: var(--font-title2);
 }
@@ -68,13 +68,13 @@
   width: 250px;
   height: 250px;
   background-color: #ddd;
-  border-radius: 50%;
+  border-radius: 24%;
   margin: 40px auto;
 }
 
 .invitationText {
-  width: 300px;
-  font-size: 2rem;
+  width: 400px;
+  font-size: 3rem;
   font-family: var(--font-title2);
   margin-top: 10px;
 }

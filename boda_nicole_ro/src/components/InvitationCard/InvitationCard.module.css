@@ -1,39 +1,42 @@
 .invitationContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-    background-color: #fff5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff5f5;
 
-    /* padding: 50px 20px; */
-    background-color: var(--color-bg-general);
+  /* padding: 50px 20px; */
+  background-color: var(--color-bg-general);
 
-    /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-    min-height: 100vh; /* Ocupa toda la pantalla */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .invitationBox {
-    border: 2px dashed #d72638;
-    padding: 30px;
-    max-width: 400px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-  }
-  
-  .title {
-    font-size: 1.8rem;
-    color: #d72638;
-    margin-bottom: 15px;
-  }
-  
-  .footer {
-    margin-top: 20px;
-    font-style: italic;
-    color: #777;
-  }
-  
+  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+  min-height: 100vh;
+  /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitationBox {
+  border: 2px dashed #d72638;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: var(--color-title);
+  margin-bottom: 15px;
+}
+
+.footer {
+  font-size: 2.5rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
