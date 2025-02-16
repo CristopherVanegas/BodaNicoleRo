@@ -1,6 +1,6 @@
 import 'react';
 import styles from './InvitationCard.module.css';
-import imagenNovios1Circle from '../../assets/images/novios/1.jpeg';
+import imagenNovios1Circle from '../../assets/images/novios/1-57.jpeg';
 import logoNovios from '../../assets/images/logo/logo-circle.png';
 
 const InvitationCard = () => {
@@ -19,10 +19,13 @@ const InvitationCard = () => {
             <p><strong>Banquete:</strong><br /> [Empresa del Banquete]</p>
           </div>
           <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />
-
         </div>
         <p className={styles.linea}></p>
-        <footer className={styles.footer}>Nicole & Diego</footer>
+        <footer className={styles.footer}>
+          <p>Nicole</p>
+          <p>&</p>
+          <p>Diego</p>
+        </footer>
       </div>
     </section>
   );
