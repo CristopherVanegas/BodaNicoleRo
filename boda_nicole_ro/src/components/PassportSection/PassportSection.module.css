@@ -1,5 +1,5 @@
 .passportContainer {
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
   /* padding: 50px 20px; */
   background-color: var(--color-bg-general);
@@ -14,11 +14,11 @@
 }
 
 .imageContainer {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: #ddd;
   border-radius: 50%;
-  margin: 0 auto 20px;
+  margin: 20px;
 }
 
 .title {
