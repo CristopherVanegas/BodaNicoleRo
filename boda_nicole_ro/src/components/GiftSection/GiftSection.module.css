@@ -21,7 +21,7 @@
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .text {
@@ -30,7 +30,7 @@
   font-size: 2rem;
   width: 350px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Contenedor flexible para las cuentas */
