@@ -33,7 +33,29 @@
   /* O usa 'cover' o 'contain' según prefieras */
 
   /* Animación para deslizar el fondo */
-  animation: slideBg 121s linear infinite;
+  animation: slideBg 60s linear infinite;
+}
+
+.sliderBackground2 {
+  position: absolute;
+  top: 85;
+  left: 0;
+  width: 100%;
+  /* Puedes ajustar el ancho deseado */
+  height: 350px;
+  /* Ajusta la altura deseada para el slider */
+  z-index: 0;
+  /* Se coloca detrás del contenido */
+
+  background-image: url('../../assets/images/backgrounds/continents.png');
+  /* Reemplaza con la ruta de tu imagen */
+  background-repeat: repeat-x;
+  /* Repite la imagen horizontalmente */
+  background-size: auto;
+  /* O usa 'cover' o 'contain' según prefieras */
+
+  /* Animación para deslizar el fondo */
+  animation: slideBg 60s linear infinite;
 }
 
 @keyframes slideBg {
