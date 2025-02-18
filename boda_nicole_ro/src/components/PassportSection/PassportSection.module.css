@@ -13,10 +13,18 @@
   /* Evita que el fondo se desborde */
 }
 
+.content1 {
+  margin-top: 80px;
+}
+
+.content2 {
+  margin-top: 80px;
+}
+
 /* Slider de fondo: se mueve de derecha a izquierda de forma lenta */
 .sliderBackground {
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 0;
   width: 100%;
   /* Puedes ajustar el ancho deseado */
@@ -38,7 +46,7 @@
 
 .sliderBackground2 {
   position: absolute;
-  top: 85;
+  top: 55%;
   left: 0;
   width: 100%;
   /* Puedes ajustar el ancho deseado */
