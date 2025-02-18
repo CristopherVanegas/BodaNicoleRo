@@ -1,0 +1,122 @@
+.storyContainer {
+    position: relative;
+    /* Permite posicionar elementos absolutamente dentro de este contenedor */
+    padding-top: 50px;
+    text-align: center;
+    background-color: var(--color-bg-general);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Evita que el fondo se desborde */
+}
+
+.content2 {
+    margin-top: 80px;
+}
+
+.sliderBackground2 {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    /* Puedes ajustar el ancho deseado */
+    height: 350px;
+    /* Ajusta la altura deseada para el slider */
+    z-index: 0;
+    /* Se coloca detrás del contenido */
+
+    background-image: url('../../assets/images/backgrounds/continents.png');
+    /* Reemplaza con la ruta de tu imagen */
+    background-repeat: repeat-x;
+    /* Repite la imagen horizontalmente */
+    background-size: auto;
+    /* O usa 'cover' o 'contain' según prefieras */
+
+    /* Animación para deslizar el fondo */
+    animation: slideBg 60s linear infinite;
+}
+
+@keyframes slideBg {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -100% 0;
+    }
+}
+
+/* Contenedor del contenido */
+.content {
+    position: relative;
+    z-index: 1;
+    /* Se muestra por encima del slider de fondo */
+    width: 100%;
+}
+
+/* Resto de estilos para el contenido */
+.imageContainer {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--color-title);
+    font-family: var(--font-title);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.h3 {
+    font-size: 1rem;
+    color: var(--color-title);
+    font-family: var(--font-simple);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 3rem;
+    color: var(--color-title);
+    font-family: var(--font-title);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.textContainer {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.text1,
+.text2 {
+    font-size: 3rem;
+    margin-top: 10px;
+    font-family: var(--font-title2);
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: right;
+}
+
+.invitationText {
+    width: 350px;
+    font-size: 2rem;
+    font-family: var(--font-title2);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
