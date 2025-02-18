@@ -4,12 +4,13 @@
   padding-top: 50px;
   text-align: center;
   background-color: var(--color-bg-general);
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* Evita que el fondo se desborde */
 }
 
@@ -17,36 +18,10 @@
   margin-top: 80px;
 }
 
-.content2 {
-  margin-top: 80px;
-}
-
 /* Slider de fondo: se mueve de derecha a izquierda de forma lenta */
 .sliderBackground {
   position: absolute;
   top: 5%;
-  left: 0;
-  width: 100%;
-  /* Puedes ajustar el ancho deseado */
-  height: 350px;
-  /* Ajusta la altura deseada para el slider */
-  z-index: 0;
-  /* Se coloca detrás del contenido */
-
-  background-image: url('../../assets/images/backgrounds/continents.png');
-  /* Reemplaza con la ruta de tu imagen */
-  background-repeat: repeat-x;
-  /* Repite la imagen horizontalmente */
-  background-size: auto;
-  /* O usa 'cover' o 'contain' según prefieras */
-
-  /* Animación para deslizar el fondo */
-  animation: slideBg 60s linear infinite;
-}
-
-.sliderBackground2 {
-  position: absolute;
-  top: 55%;
   left: 0;
   width: 100%;
   /* Puedes ajustar el ancho deseado */

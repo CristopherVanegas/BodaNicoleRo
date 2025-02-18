@@ -4,12 +4,13 @@
     padding-top: 50px;
     text-align: center;
     background-color: var(--color-bg-general);
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* Evita que el fondo se desborde */
 }
 
