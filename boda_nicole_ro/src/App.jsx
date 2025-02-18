@@ -1,4 +1,5 @@
 import PassportSection from './components/PassportSection/PassportSection';
+import Story from './components/Story/story';
 import InvitationCard from './components/InvitationCard/InvitationCard';
 import Location from './components/Location/Location';
 import ConfirmAttendance from './components/ConfirmAttendance/ConfirmAttendance';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <PassportSection />
+      <Story />
       <InvitationCard />
       <Location />
       <ConfirmAttendance />
