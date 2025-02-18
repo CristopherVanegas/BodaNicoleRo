@@ -21,7 +21,7 @@
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
-  margin: 20px;
+  margin-bottom: 16px;
 }
 
 .text {
@@ -29,6 +29,8 @@
   font-style: italic;
   font-size: 2rem;
   width: 350px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 /* Contenedor flexible para las cuentas */
