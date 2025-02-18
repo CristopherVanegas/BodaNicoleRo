@@ -49,4 +49,22 @@
   background-color: var(--color-bg-general);
   padding: 0px;
   margin: 0px;
+  animation: rotateImage 2s ease-in-out infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+    /* Empieza en la posición original */
+  }
+
+  50% {
+    transform: rotate(-15deg);
+    /* Gira 15 grados a la izquierda */
+  }
+
+  100% {
+    transform: rotate(0deg);
+    /* Vuelve a la posición original */
+  }
 }
