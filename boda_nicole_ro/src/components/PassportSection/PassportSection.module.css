@@ -27,6 +27,7 @@
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
+  margin: 20px;
 }
 
 .h3 {
@@ -47,7 +48,7 @@
 }
 
 .textContainer {
-  width: 350px;
+  width: 300px;
 }
 
 .text1 {

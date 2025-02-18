@@ -1,34 +1,52 @@
 .attendanceContainer {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: var(--color-bg-general);
-    
-    /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-    min-height: 100vh; /* Ocupa toda la pantalla */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .confirmButton {
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: white;
-    background-color: #d72638;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .confirmButton:hover {
-    background-color: #b51d2d;
-  }
-  
+  text-align: center;
+  padding: 50px 20px;
+  background-color: var(--color-bg-general);
+
+  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
+  min-height: 100vh;
+  /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.invitationText {
+  font-family: var(--font-cormorant-garamond);
+  font-style: italic;
+  font-size: 1.5rem;
+  width: 250px;
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.confirmButton {
+  margin: 20px;
+  background-color: var(--color-bg-general);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.passportIcon {
+  width: 150px;
+  height: auto;
+  background-color: var(--color-bg-general);
+  padding: 0px;
+  margin: 0px;
+}

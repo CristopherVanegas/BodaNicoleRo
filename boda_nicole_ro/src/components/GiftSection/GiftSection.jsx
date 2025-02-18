@@ -6,7 +6,7 @@ const GiftSection = () => {
     <section className={styles.giftContainer}>
       <h2 className={styles.title}>Regalo en Sobre Sellado</h2>
       <p className={styles.text}>
-        Si deseas obsequiarnos un regalo, te agradecemos tu apoyo a través de un sobre sellado o una transferencia a las siguientes cuentas:
+        Lo más importante es su presencia, pero si deseas hacernos un regalo, aquí dejamos nuestro número de cuenta.
       </p>
 
       <div className={styles.accountsContainer}>
