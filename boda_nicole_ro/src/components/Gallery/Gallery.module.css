@@ -28,7 +28,9 @@
   font-family: var(--font-cormorant-garamond);
   font-style: italic;
   font-size: 2rem;
-  width: 250px;
+  width: 350px;
+  /* margin-top: 0px; */
+  margin-bottom: 40px;
 }
 
 .confirmButton {
