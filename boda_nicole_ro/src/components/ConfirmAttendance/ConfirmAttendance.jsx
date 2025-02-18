@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './ConfirmAttendance.module.css';
 import ModalForm from './ModalForm/ModalForm';
 import logoNovios from '../../assets/images/logo/logo-circle.png';
-import passportIcon from '../../assets/images/icons/passport-icon.png';
+import passportIcon from '../../assets/images/icons/passport-icon2.png';
 
 const ConfirmAttendance = () => {
   const [isOpen, setIsOpen] = useState(false);
