@@ -1,7 +1,7 @@
 .storyContainer {
     position: relative;
     /* Permite posicionar elementos absolutamente dentro de este contenedor */
-    padding-top: 10px;
+    /* padding-top: 10px; */
     text-align: center;
     background-color: var(--color-bg-general);
     /* min-height: 100vh; */
@@ -24,7 +24,7 @@
     left: 0;
     width: 100%;
     /* Puedes ajustar el ancho deseado */
-    height: 350px;
+    height: 450px;
     /* Ajusta la altura deseada para el slider */
     z-index: 0;
     /* Se coloca detrás del contenido */
