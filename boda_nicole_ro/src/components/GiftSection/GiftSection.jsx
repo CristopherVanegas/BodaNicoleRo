@@ -1,5 +1,6 @@
 import 'react';
 import styles from './GiftSection.module.css';
+import bancoIcon from '../../assets/images/icons/banco-icon.png';
 
 const GiftSection = () => {
   return (
@@ -11,15 +12,12 @@ const GiftSection = () => {
 
       <div className={styles.accountsContainer}>
         <div className={styles.accountBox}>
-          <h3>🏦 Banco XYZ</h3>
-          <p><strong>Número de Cuenta:</strong> 1234567890</p>
-          <p><strong>Titular:</strong> Nombre del Novio/a</p>
-        </div>
-
-        <div className={styles.accountBox}>
-          <h3>🏦 Banco ABC</h3>
-          <p><strong>Número de Cuenta:</strong> 0987654321</p>
-          <p><strong>Titular:</strong> Nombre del Novio/a</p>
+          <a className={styles.confirmButton} onClick={console.log("Copiado!")}>
+            <img className={styles.bancoIcon} src={bancoIcon} alt="Icono Banco" />
+          </a>
+          <h3>Banco Pichincha</h3>
+          <p><strong>Cuenta de Ahorros:</strong> 4227865200</p>
+          <p><strong>Titular:</strong>Lorena Álava</p>
         </div>
       </div>
 

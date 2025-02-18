@@ -27,7 +27,7 @@
 .text {
   font-family: var(--font-cormorant-garamond);
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 350px;
 }
 
@@ -52,7 +52,12 @@
 }
 
 .accountBox h3 {
-  color: #d72638;
+  color: var(--color-title);
+  font-size: 1rem;
+  color: var(--color-title);
+  font-family: var(--font-simple);
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .accountBox p {
@@ -71,4 +76,19 @@
   .accountBox {
     max-width: 300px;
   }
+}
+
+.confirmButton {
+  /* background-color: var(--color-bg-general); */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.bancoIcon {
+  width: 75px;
+  height: auto;
+  /* background-color: var(--color-bg-general); */
+  padding: 0px;
+  margin: 12px;
+  animation: rotateImage 2s ease-in-out infinite;
 }
