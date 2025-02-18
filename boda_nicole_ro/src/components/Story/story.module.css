@@ -1,7 +1,7 @@
 .storyContainer {
     position: relative;
     /* Permite posicionar elementos absolutamente dentro de este contenedor */
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
     background-color: var(--color-bg-general);
     /* min-height: 100vh; */
