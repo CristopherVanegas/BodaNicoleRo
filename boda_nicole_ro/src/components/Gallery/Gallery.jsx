@@ -1,5 +1,6 @@
 import 'react';
 import styles from './Gallery.module.css';
+import cameraIcon from '../../assets/images/icons/camera-icon.png';
 
 const Gallery = () => {
   const googleDriveLink = "https://drive.google.com/drive/folders/TU_CARPETA_ID"; // Reemplaza con tu enlace real
@@ -11,8 +12,8 @@ const Gallery = () => {
         El día de la boda toma muchas fotos y déjanos un bonito y divertido recuerdo haciendo click en el ícono de la cámara de fotos!
       </p>
 
-      <a href={googleDriveLink} target="_blank" rel="noopener noreferrer" className={styles.uploadButton}>
-        📸 Subir Fotos y Videos
+      <a href={googleDriveLink} target="_blank" rel="noopener noreferrer" className={styles.confirmButton} onClick={console.log("Copiado!")}>
+        <img className={styles.cameraIcon} src={cameraIcon} alt="Icono Cámara" />
       </a>
     </section>
   );
