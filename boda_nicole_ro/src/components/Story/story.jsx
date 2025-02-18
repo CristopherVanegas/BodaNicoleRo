@@ -2,7 +2,7 @@ import 'react'
 import styles from "./story.module.css";
 import Countdown from "../Countdown/Countdown";
 
-export const story = () => {
+const Story = () => {
     return (
         <div className={styles.storyContainer}>
             <div className={styles.content2}>
@@ -21,3 +21,4 @@ export const story = () => {
         </div>
     )
 }
+export default Story;
