@@ -11,6 +11,9 @@
 }
 
 .timeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: white;
   padding: 15px;
   border-radius: 10px;
@@ -20,25 +23,29 @@
 }
 
 .number {
+  width: 50%;
   font-size: 2rem;
   font-family: var(--font-body);
-  color: #333;
+  color: var(--color-title);
 }
 
 .label {
+  margin-left: 4px;
   font-size: 1rem;
   font-family: var(--font-body);
-  color: #777;
+  color: var(--color-title);
 }
 
 /* 📌 Ajuste para pantallas pequeñas */
 @media (max-width: 768px) {
   .timer {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .timeBox {
-    min-width: 70px;
+    min-width: 150px;
     padding: 10px;
   }
 }
@@ -48,8 +55,36 @@
   font-size: 2rem;
   font-family: var(--font-title2);
   color: var(--color-text);
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
+  margin: 26px auto;
+}
+
+.buttonContainer {
+  margin: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.globoIcon {
+  width: 150px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  animation: rotateImage 2s ease-in-out infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(-8deg);
+    /* Gira 15 grados a la izquierda */
+  }
+
+  55% {
+    transform: rotate(8deg);
+    /* Gira 15 grados a la izquierda */
+  }
+
+  100% {
+    transform: rotate(-8deg);
+    /* Vuelve a la posición original */
+  }
 }

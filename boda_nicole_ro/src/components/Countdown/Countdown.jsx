@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './Countdown.module.css';
+import globoFlotanteIcon from '../../assets/images/icons/globo-flotante-icon.png';
 
 const Countdown = () => {
   const weddingDate = new Date('2025-06-15T00:00:00').getTime(); // Cambia la fecha al día de la boda
@@ -27,6 +28,9 @@ const Countdown = () => {
 
   return (
     <section className={styles.countdownContainer}>
+      <a className={styles.buttonContainer}>
+        <img className={styles.globoIcon} src={globoFlotanteIcon} alt="Icono Globo Flotante" />
+      </a>
       <p className={styles.invitationText}>
         Cuenta regresiva para iniciar el embarque a la mejor fiesta
       </p>
