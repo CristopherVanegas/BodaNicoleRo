@@ -14,7 +14,6 @@ const PassportSection = () => {
           <h2 className={styles.subtitle}>Nicole & Diego</h2>
         </div>
       </div>
-
     </section>
   );
 };

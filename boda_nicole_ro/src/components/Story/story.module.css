@@ -20,7 +20,7 @@
 
 .sliderBackground2 {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 0;
     width: 100%;
     /* Puedes ajustar el ancho deseado */
@@ -101,22 +101,26 @@
 .text1,
 .text2 {
     font-size: 3rem;
-    margin-top: 10px;
     font-family: var(--font-title2);
+    color: var(--color-text);
+    margin: 4px;
 }
 
 .text1 {
     text-align: left;
+    margin-bottom: 2px;
 }
 
 .text2 {
     text-align: right;
+    margin-bottom: 16px;
 }
 
 .invitationText {
     width: 350px;
     font-size: 2rem;
     font-family: var(--font-title2);
+    color: var(--color-text);
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
