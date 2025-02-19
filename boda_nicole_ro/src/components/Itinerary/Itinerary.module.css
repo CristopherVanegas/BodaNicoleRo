@@ -1,18 +1,61 @@
 .itineraryContainer {
+  position: relative;
   text-align: center;
   padding: 50px 20px;
   background-color: #f9f9f9;
 
-  /* padding: 50px 20px; */
   background-color: var(--color-bg-general);
 
   /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
   min-height: 100vh;
-  /* Ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.sliderBackground {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+  /* Puedes ajustar el ancho deseado */
+  height: 450px;
+  /* Ajusta la altura deseada para el slider */
+  z-index: 0;
+  /* Se coloca detrás del contenido */
+
+  background-image: url('../../assets/images/backgrounds/continents.png');
+  /* Reemplaza con la ruta de tu imagen */
+  background-repeat: repeat-x;
+  /* Repite la imagen horizontalmente */
+  background-size: auto;
+  /* O usa 'cover' o 'contain' según prefieras */
+
+  /* Animación para deslizar el fondo */
+  animation: slideBg 60s linear infinite;
+}
+
+@keyframes slideBg {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Se muestra por encima del slider de fondo */
+  width: 100%;
 }
 
 .title {
@@ -24,8 +67,8 @@
 }
 
 .text {
-  width: 400px;
-  font-size: 1rem;
+  width: 450px;
+  font-size: 1.5rem;
   color: var(--color-title);
   font-family: var(--font-simple);
   text-transform: uppercase;

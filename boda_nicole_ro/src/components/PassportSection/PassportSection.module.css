@@ -14,10 +14,6 @@
   /* Evita que el fondo se desborde */
 }
 
-.content1 {
-  /* margin-top: 20px; */
-}
-
 /* Slider de fondo: se mueve de derecha a izquierda de forma lenta */
 .sliderBackground {
   position: absolute;

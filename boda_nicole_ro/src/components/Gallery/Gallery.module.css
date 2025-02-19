@@ -33,6 +33,24 @@
   margin-bottom: 40px;
 }
 
+/* Contenedor flexible para las cuentas */
+.buttonContainer {
+  display: flex;
+  /* Por defecto, en móviles será vertical */
+  align-items: center;
+}
+
+/* Estilos para cada cuenta bancaria */
+.buttonBox {
+  background-color: white;
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 32%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 .confirmButton {
   /* background-color: var(--color-bg-general); */
   cursor: pointer;
