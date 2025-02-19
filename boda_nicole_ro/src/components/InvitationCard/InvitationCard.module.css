@@ -82,6 +82,11 @@
   padding-bottom: 5px;
 }
 
+.textContent {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .textContent p {
   text-align: start;
   font-size: medium;
@@ -107,13 +112,12 @@
   font-size: 2.5rem;
   color: var(--color-title);
   font-family: var(--font-title);
+  margin-top: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .footer p:nth-child(2) {
-  color: var(--color-accent);
-  /* Ejemplo: cambia el color de la fuente */
+  color: var(--color-red);
   font-weight: bold;
-  /* Ejemplo: lo pones en negrita */
 }
