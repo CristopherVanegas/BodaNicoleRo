@@ -9,15 +9,15 @@ const ConfirmAttendance = () => {
 
   return (
     <section className={styles.attendanceContainer}>
-      <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />
-      <h2 className={styles.title}>Asistencia</h2>
-      <p className={styles.invitationText}>Haz click sobre la imagen de pasaporte para confirmar tu presencia</p>
-      <a className={styles.confirmButton} onClick={() => setIsOpen(true)}>
-        <img className={styles.passportIcon} src={passportIcon} alt="Icono Pasaporte" />
-      </a>
-      {/* <button className={styles.confirmButton} onClick={() => setIsOpen(true)}>
-        <img className={styles.passportIcon} src={passportIcon} alt="Icono Pasaporte" />
-      </button> */}
+      <div className={styles.sliderBackground} />
+      <div className={styles.content}>
+        <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />
+        <h2 className={styles.title}>Asistencia</h2>
+        <p className={styles.invitationText}>Haz click sobre la imagen de pasaporte para confirmar tu presencia</p>
+        <a className={styles.confirmButton} onClick={() => setIsOpen(true)}>
+          <img className={styles.passportIcon} src={passportIcon} alt="Icono Pasaporte" />
+        </a>
+      </div>
       {isOpen && <ModalForm onClose={() => setIsOpen(false)} />}
     </section>
   );
