@@ -14,27 +14,16 @@
     /* Evita que el fondo se desborde */
 }
 
-.content2 {
-    /* margin-top: 20px; */
-}
-
 .sliderBackground2 {
     position: absolute;
     top: 10%;
     left: 0;
     width: 100%;
-    /* Puedes ajustar el ancho deseado */
     height: 450px;
-    /* Ajusta la altura deseada para el slider */
     z-index: 0;
-    /* Se coloca detrás del contenido */
-
     background-image: url('../../assets/images/backgrounds/continents.png');
-    /* Reemplaza con la ruta de tu imagen */
     background-repeat: repeat-x;
-    /* Repite la imagen horizontalmente */
     background-size: auto;
-    /* O usa 'cover' o 'contain' según prefieras */
 
     /* Animación para deslizar el fondo */
     animation: slideBg 60s linear infinite;
@@ -42,7 +31,7 @@
 
 @keyframes slideBg {
     from {
-        background-position: 0 0;
+        background-position: -10% 0;
     }
 
     to {

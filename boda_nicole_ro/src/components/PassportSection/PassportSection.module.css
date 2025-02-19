@@ -39,7 +39,7 @@
 
 @keyframes slideBg {
   from {
-    background-position: 0 0;
+    background-position: -10% 0;
   }
 
   to {
