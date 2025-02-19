@@ -27,6 +27,9 @@ const Countdown = () => {
 
   return (
     <section className={styles.countdownContainer}>
+      <p className={styles.invitationText}>
+        Cuenta regresiva para iniciar el embarque a la mejor fiesta
+      </p>
       <div className={styles.timer}>
         <div className={styles.timeBox}>
           <span className={styles.number}>{timeLeft.days}</span>
