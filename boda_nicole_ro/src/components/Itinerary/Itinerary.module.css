@@ -67,7 +67,7 @@
 }
 
 .text {
-  width: 450px;
+  width: 400px;
   font-size: 1.5rem;
   color: var(--color-title);
   font-family: var(--font-simple);
