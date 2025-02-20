@@ -1,7 +1,7 @@
 .countdownContainer {
   text-align: center;
   padding: 50px 20px;
-  /* background-color: #f3f3f3; */
+  margin-bottom: 32px;
 }
 
 .timer {
@@ -75,16 +75,13 @@
 @keyframes rotateImage {
   0% {
     transform: rotate(-8deg);
-    /* Gira 15 grados a la izquierda */
   }
 
   55% {
     transform: rotate(8deg);
-    /* Gira 15 grados a la izquierda */
   }
 
   100% {
     transform: rotate(-8deg);
-    /* Vuelve a la posición original */
   }
 }

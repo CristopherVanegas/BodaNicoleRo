@@ -1,15 +1,16 @@
 import 'react';
 import styles from './GiftSection.module.css';
 import bancoIcon from '../../assets/images/icons/banco-icon.png';
+import giftIcon from '../../assets/images/icons/gift-icon.png';
 
 const GiftSection = () => {
   return (
     <section className={styles.giftContainer}>
+      <img className={styles.giftIcon} src={giftIcon} alt="Icono Regalo" />
       <h2 className={styles.title}>Regalo en Sobre Sellado</h2>
       <p className={styles.text}>
         Lo más importante es su presencia, pero si deseas hacernos un regalo, aquí dejamos nuestro número de cuenta.
       </p>
-
       <div className={styles.accountsContainer}>
         <div className={styles.accountBox}>
           <a className={styles.confirmButton} onClick={console.log("Copiado!")}>

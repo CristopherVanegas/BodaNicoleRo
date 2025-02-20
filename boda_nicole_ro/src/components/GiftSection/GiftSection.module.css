@@ -15,6 +15,14 @@
   align-items: center;
 }
 
+.giftIcon {
+  width: 125px;
+  height: auto;
+  padding: 0px;
+  margin: 12px;
+  animation: rotateImage 2s ease-in-out infinite;
+}
+
 .title {
   font-size: 3rem;
   color: var(--color-title);
