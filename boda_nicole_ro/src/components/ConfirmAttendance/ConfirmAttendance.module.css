@@ -25,7 +25,7 @@
   background-image: url('../../assets/images/backgrounds/continents.png');
   background-repeat: repeat-x;
   background-size: auto;
-  animation: slideBg 60s linear infinite;
+  animation: slideBg 50s linear infinite;
 }
 
 @keyframes slideBg {
