@@ -1,6 +1,6 @@
 import 'react';
 import styles from './Itinerary.module.css';
-import itineraryImage from '../../assets/images/itinerario/Itinerario.jpg'; // Ruta de la imagen en PNG
+import itineraryImage from '../../assets/images/itinerario/Itinerario.png'; // Ruta de la imagen en PNG
 
 const Itinerary = () => {
   return (
