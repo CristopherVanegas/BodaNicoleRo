@@ -3,7 +3,7 @@ import styles from './Countdown.module.css';
 import globoFlotanteIcon from '../../assets/images/icons/globo-flotante-icon.png';
 
 const Countdown = () => {
-  const weddingDate = new Date('2025-06-15T00:00:00').getTime(); // Cambia la fecha al día de la boda
+  const weddingDate = new Date('2025-09-06T11:00:00').getTime(); // Cambia la fecha al día de la boda
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
