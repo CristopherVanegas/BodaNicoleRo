@@ -6,6 +6,8 @@ import logoNovios from '../../assets/images/logo/logo-circle.png';
 const InvitationCard = () => {
   return (
     <section className={styles.invitationContainer}>
+      <div className={styles.sliderBackground} />
+
       <div className={styles.invitationBox}>
         <img className={styles.imageNovios1Container} src={imagenNovios1Circle} alt="Logo Novios 1" />
         <h2 className={styles.title}>Pasaporte a nuestra boda</h2>
