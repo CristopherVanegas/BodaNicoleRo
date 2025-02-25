@@ -4,7 +4,7 @@ import logoNovios from '../../assets/images/logo/logo-circle.png';
 
 const PassportSection = () => {
   return (
-    <section className={styles.passportContainer}>
+    <section className={styles.passportContainer} id="PassportSection">
       <div className={styles.sliderBackground} />
       <div className={styles.content}>
         <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />

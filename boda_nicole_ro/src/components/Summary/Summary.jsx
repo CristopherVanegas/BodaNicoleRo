@@ -28,7 +28,9 @@ const Summary = () => {
 
           <footer>
             <p className={styles.finalMessage}>El único equipaje que necesitas  son las ganas de pasarlo bien</p>
-            <img src={equip} className={styles.equipaje} alt="Gif equipaje" />
+            <a href="#PassportSection">
+              <img src={equip} className={styles.equipaje} alt="Gif equipaje" />
+            </a>
             <p className={styles.finalMessage}>¡Te esperamos!</p>
           </footer>
         </div>
