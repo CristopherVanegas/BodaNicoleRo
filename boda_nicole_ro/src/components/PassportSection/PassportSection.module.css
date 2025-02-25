@@ -34,7 +34,7 @@
   /* O usa 'cover' o 'contain' según prefieras */
 
   /* Animación para deslizar el fondo */
-  animation: slideBg 50s linear infinite;
+  animation: slideBg var(--slide-time) linear infinite;
 }
 
 @keyframes slideBg {
