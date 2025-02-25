@@ -1,0 +1,48 @@
+.collage {
+    position: relative;
+    width: 200px;
+    /* Ajusta según necesites */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    position: absolute;
+    width: 80px;
+    /* Tamaño de cada imagen */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Posiciones para formar el corazón */
+.img1 {
+    top: 20px;
+    left: 50px;
+    transform: rotate(-10deg);
+}
+
+.img2 {
+    top: 20px;
+    right: 50px;
+    transform: rotate(10deg);
+}
+
+.img3 {
+    top: 80px;
+    left: 20px;
+}
+
+.img4 {
+    top: 80px;
+    right: 20px;
+}
+
+.img5 {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
