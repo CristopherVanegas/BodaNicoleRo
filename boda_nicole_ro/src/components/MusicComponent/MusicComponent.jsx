@@ -1,5 +1,5 @@
 import "react";
-import music from '../../assets/audio/music1.mp3';
+import music from '../../assets/audio/music.mp3';
 
 const MusicComponent = () => {
     return (
