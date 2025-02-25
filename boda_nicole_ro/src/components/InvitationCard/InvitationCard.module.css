@@ -119,10 +119,25 @@
 .imageContainer {
   position: absolute;
   top: 10%;
-  right: 20px;
+  right: 10px;
   width: 100px;
   height: auto;
   border-radius: 50%;
+  animation: rotateCompass 3s linear infinite;
+}
+
+@keyframes rotateCompass {
+  0% {
+    transform: rotate(-4deg);
+  }
+
+  33% {
+    transform: rotate(36deg);
+  }
+
+  100% {
+    transform: rotate(-4deg);
+  }
 }
 
 .footer {

@@ -1,7 +1,7 @@
 import 'react';
 import styles from './InvitationCard.module.css';
 import imagenNovios1Circle from '../../assets/images/novios/1-57.jpeg';
-import logoNovios from '../../assets/images/logo/logo-circle.png';
+import logoNovios from '../../assets/images/brujula31.png';
 
 const InvitationCard = () => {
   return (
