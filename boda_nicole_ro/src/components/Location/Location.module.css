@@ -1,14 +1,61 @@
+/* Slider de fondo: se mueve de derecha a izquierda de forma lenta */
+.sliderBackground {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  z-index: 0;
+  background-image: url('../../assets/images/backgrounds/continents.png');
+  background-repeat: repeat-x;
+  background-size: auto;
+  animation: slideBg var(--slide-time) linear infinite;
+}
+
+@keyframes slideBg {
+  from {
+    background-position: -10% 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.compassImage {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px;
+  animation: rotateCompass 3s linear infinite;
+}
+
+@keyframes rotateCompass {
+  0% {
+    transform: rotate(-16deg);
+  }
+
+  33% {
+    transform: rotate(46deg);
+  }
+
+  100% {
+    transform: rotate(-16deg);
+  }
+}
+
+
+.content {
+  z-index: 1;
+}
+
 .locationContainer {
+  position: relative;
   text-align: center;
   padding: 50px 20px;
   background-color: #f3f3f3;
-
-  /* padding: 50px 20px; */
   background-color: var(--color-bg-general);
-
-  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
   min-height: 100vh;
-  /* Ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;

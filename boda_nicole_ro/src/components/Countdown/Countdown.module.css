@@ -69,12 +69,12 @@
   height: auto;
   padding: 0px;
   margin: 0px;
-  animation: rotateImage 2s ease-in-out infinite;
+  animation: rotateImage 3s ease-in-out infinite;
 }
 
 @keyframes rotateImage {
   0% {
-    transform: rotate(-8deg);
+    transform: rotate(-4deg);
   }
 
   55% {
@@ -82,6 +82,6 @@
   }
 
   100% {
-    transform: rotate(-8deg);
+    transform: rotate(-4deg);
   }
 }
