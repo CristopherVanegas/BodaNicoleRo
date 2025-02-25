@@ -10,24 +10,26 @@ const InvitationCard = () => {
 
       <div className={styles.invitationBox}>
         <img className={styles.imageNovios1Container} src={imagenNovios1Circle} alt="Logo Novios 1" />
-        <h2 className={styles.title}>Pasaporte a nuestra boda</h2>
-        <p className={styles.linea}></p>
-        <div className={styles.invitationContent}>
-          <div className={styles.textContent}>
-            <p><strong>Fecha:</strong><br /> Septiembre 6 de 2025</p>
-            <p><strong>Hora:</strong><br />11AM</p>
-            <p><strong>Destino:</strong><br />La Quinta</p>
-            <p><strong>Iglesia:</strong><br />Iglesia católica del sagrado corazón - Manta</p>
-            <p><strong>Banquete:</strong><br /> [Empresa del Banquete]</p>
+        <div className={styles.content}>
+          <h2 className={styles.title}>Pasaporte a nuestra boda</h2>
+          <p className={styles.linea}></p>
+          <div className={styles.invitationContent}>
+            <div className={styles.textContent}>
+              <p><strong>Fecha:</strong><br /> Septiembre 6 de 2025</p>
+              <p><strong>Hora:</strong><br />11AM</p>
+              <p><strong>Destino:</strong><br />La Quinta</p>
+              <p><strong>Iglesia:</strong><br />Iglesia católica del sagrado corazón - Manta</p>
+              <p><strong>Banquete:</strong><br /> [Empresa del Banquete]</p>
+            </div>
+            <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />
           </div>
-          <img className={styles.imageContainer} src={logoNovios} alt="Logo Novios" />
+          <p className={styles.linea}></p>
+          <footer className={styles.footer}>
+            <p>Nicole</p>
+            <p>&</p>
+            <p>Diego</p>
+          </footer>
         </div>
-        <p className={styles.linea}></p>
-        <footer className={styles.footer}>
-          <p>Nicole</p>
-          <p>&</p>
-          <p>Diego</p>
-        </footer>
       </div>
     </section>
   );
