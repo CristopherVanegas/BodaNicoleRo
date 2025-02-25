@@ -1,6 +1,6 @@
 import 'react';
 import styles from './Summary.module.css';
-import equip from './../../assets/images/gif/equip2.gif'
+import equip from './../../assets/images/gif/equip1.gif'
 
 const Summary = () => {
   return (

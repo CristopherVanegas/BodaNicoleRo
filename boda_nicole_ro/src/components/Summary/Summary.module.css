@@ -120,6 +120,7 @@
 .equipaje {
   height: 105px;
   width: auto;
+  padding: 12px;
 }
 
 footer {
