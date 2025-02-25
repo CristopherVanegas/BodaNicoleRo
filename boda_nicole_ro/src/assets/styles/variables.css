@@ -10,4 +10,7 @@
   --color-bg-general: #f9f7f5;
   --font-allura: 'Allura', cursive;
   --font-cormorant-garamond: 'Cormorant Garamond', serif;
+  --slide-time: 40s;
+  --start-pos-slider: 40%;
+  --bg-img-width: 680px;
 }
