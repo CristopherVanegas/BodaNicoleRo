@@ -37,7 +37,7 @@
 }
 
 /* 📌 Ajuste para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .timer {
     flex-wrap: wrap;
     flex-direction: column;

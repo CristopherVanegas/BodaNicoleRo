@@ -69,7 +69,7 @@
 
 .sliderBackground {
   position: absolute;
-  top: 0%;
+  top: 10%;
   left: 0;
   width: 100%;
   height: 280px;
@@ -81,6 +81,42 @@
   animation: slideBg var(--slide-time) linear infinite;
 }
 
+@media (max-width: 375px) {
+  .sliderContainer {
+    position: absolute;
+    z-index: 3;
+    height: 280px;
+    width: 100%;
+    top: 3%;
+  }
+}
+@media (max-width: 414px) {
+  .sliderContainer {
+    position: absolute;
+    z-index: 3;
+    height: 280px;
+    width: 100%;
+    top: 14%;
+  }
+}
+@media (max-width: 390px) {
+  .sliderContainer {
+    position: absolute;
+    z-index: 3;
+    height: 280px;
+    width: 100%;
+    top: 12%;
+  }
+}
+@media (max-width: 430px) {
+  .sliderContainer {
+    position: absolute;
+    z-index: 3;
+    height: 280px;
+    width: 100%;
+    top: 15%;
+  }
+}
 @keyframes slideBg {
   from {
     background-position: 0px 0;
