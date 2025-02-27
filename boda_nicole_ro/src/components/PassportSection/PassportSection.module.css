@@ -13,7 +13,13 @@
   /* overflow: hidden; */
   /* Evita que el fondo se desborde */
 }
-
+.ballonSection {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: cyan;
+  z-index: 100;
+}
 /* Slider de fondo: se mueve de derecha a izquierda de forma lenta */
 .sliderBackground {
   position: absolute;
@@ -26,7 +32,7 @@
   z-index: 0;
   /* Se coloca detrás del contenido */
 
-  background-image: url('../../assets/images/backgrounds/continents.png');
+  background-image: url("../../assets/images/backgrounds/continents.png");
   /* Reemplaza con la ruta de tu imagen */
   background-repeat: repeat-x;
   /* Repite la imagen horizontalmente */
@@ -47,7 +53,6 @@
   }
 }
 
-
 /* Contenedor del contenido */
 .content {
   position: relative;
@@ -58,15 +63,16 @@
 
 /* Resto de estilos para el contenido */
 .imageContainer {
-  width: 200px;
-  height: 200px;
+  width: 165px;
+  height: 165px;
   background-color: #ddd;
   border-radius: 50%;
   margin: 20px auto;
 }
 
 .title {
-  font-size: 3rem;
+  z-index: 100;
+  font-size: 3.5rem;
   color: var(--color-title);
   font-family: var(--font-title);
   font-weight: 700;
@@ -75,7 +81,7 @@
 }
 
 .h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: var(--color-title);
   font-family: var(--font-simple);
   text-transform: uppercase;

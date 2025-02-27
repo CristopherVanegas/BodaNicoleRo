@@ -3,14 +3,15 @@
   --color-red: #b51d2d;
   --color-background: #fff5f5;
   --color-text: #333;
-  --font-title: 'Playfair Display', serif;
-  --font-title2: 'Dancing Script', cursive;
-  --font-simple: 'Montserrat', sans-serif;
-  --font-body: 'Libre Baskerville', serif;
+  --font-title: "Playfair Display", serif;
+  --font-title2: "Dancing Script", cursive;
+  --font-simple: "Montserrat", sans-serif;
+  --font-body: "Libre Baskerville", serif;
   --color-bg-general: #f9f7f5;
-  --font-allura: 'Allura', cursive;
-  --font-cormorant-garamond: 'Cormorant Garamond', serif;
+  --font-allura: "Allura", cursive;
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
   --slide-time: 40s;
   --start-pos-slider: 40%;
   --bg-img-width: 680px;
+  --globo-flotante: "src/assets/images/globo.png";
 }

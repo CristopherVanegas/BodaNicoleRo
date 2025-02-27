@@ -1,0 +1,21 @@
+.cuerda {
+  width: 3px;
+  height: 100px;
+  background: repeating-linear-gradient(
+    to bottom,
+    black,
+    black 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.mostrar {
+  opacity: 1;
+}
