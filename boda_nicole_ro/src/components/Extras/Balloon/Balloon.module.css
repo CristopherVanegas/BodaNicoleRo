@@ -48,6 +48,10 @@
     transform: translate(300px, 155px);
   }
 
+  95% {
+    transform: translate(400px, 75px);
+  }
+
   100% {
     transform: translate(600px, 0px);
   }
@@ -103,6 +107,10 @@
 
     90% {
       transform: translate(200px, 55px);
+    }
+
+    95% {
+      transform: translate(300px, 35px);
     }
 
     100% {
