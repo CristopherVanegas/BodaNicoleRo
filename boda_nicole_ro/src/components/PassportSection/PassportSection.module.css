@@ -16,7 +16,7 @@
 
 .ballonSection {
   position: relative;
-  height: 75px;
+  height: 1px;
   width: 100%;
   /* background-color: cyan; */
   z-index: 100;
