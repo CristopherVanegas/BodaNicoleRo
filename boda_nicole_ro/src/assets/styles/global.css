@@ -17,4 +17,5 @@ p {
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
