@@ -1,6 +1,7 @@
 import "react";
 import styles from "./PassportSection.module.css";
 import logoNovios from "../../assets/images/logo/logo-circle.png";
+import brujula from "../../assets/images/brujula31.png";
 import Balloon from "../Extras/Balloon/Balloon";
 // import Rope from "../Extras/Rope/Rope";
 
@@ -11,6 +12,7 @@ const PassportSection = () => {
       <h1 className={styles.title}>Pasaporte</h1>
       <div className={styles.ballonSection}>
         <Balloon className={styles.ballonSection} />
+        <img className={styles.brujula} src={brujula} alt="Brujula" />
       </div>
       <div className={styles.content}>
         <img
