@@ -1,7 +1,7 @@
 import "react";
 import styles from "./GiftSection.module.css";
 import bancoIcon from "../../assets/images/icons/banco-icon.png";
-import giftIcon from "../../assets/images/gift.png";
+import giftIcon from "../../assets/images/icons/gift11.png";
 
 const GiftSection = () => {
   return (
