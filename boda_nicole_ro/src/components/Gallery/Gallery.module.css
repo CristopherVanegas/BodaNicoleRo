@@ -69,7 +69,7 @@
 }
 
 /* Estilos para cada cuenta bancaria */
-.buttonBox {
+/* .buttonBox {
   background-color: white;
   padding: 10px 15px;
   width: 100%;
@@ -77,7 +77,7 @@
   border-radius: 32%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
+} */
 
 .confirmButton {
   /* background-color: var(--color-bg-general); */
@@ -86,11 +86,11 @@
 }
 
 .cameraIcon {
-  width: 75px;
+  width: 150px;
   height: auto;
   /* background-color: var(--color-bg-general); */
   padding: 0px;
-  margin: 12px;
+  /* margin: ; */
   animation: rotateImage 2s ease-in-out infinite;
 }
 

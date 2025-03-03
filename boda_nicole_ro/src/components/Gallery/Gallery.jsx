@@ -1,6 +1,6 @@
 import "react";
 import styles from "./Gallery.module.css";
-import cameraIcon from "../../assets/images/icons/camera-icon.png";
+import cameraIcon from "../../assets/images/gif/camera/camera1.gif";
 import photo1 from "../../assets/images/novios/1.jpeg";
 import photo2 from "../../assets/images/novios/2.jpeg";
 import photo3 from "../../assets/images/novios/3.jpeg";
