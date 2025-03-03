@@ -9,7 +9,7 @@ const Summary = () => {
       <div className={styles.sliderContainer}>
         <div className={styles.sliderBackground} />
       </div>
-      <div className={(styles.summaryBox, styles.brujula)}>
+      <div className={styles.brujula}>
         <img className={styles.imageContainer} src={brujula} alt="Brujula" />
       </div>
       <div className={styles.summaryBox}>
