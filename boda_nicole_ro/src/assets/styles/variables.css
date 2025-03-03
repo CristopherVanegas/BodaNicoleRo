@@ -14,4 +14,25 @@
   --start-pos-slider: 40%;
   --bg-img-width: 680px;
   --globo-flotante: "src/assets/images/globo.png";
+
+  /* Animaciones */
+  --rotateCompass-nombre: rotateCompass;
+  --rotateCompass-duracion: 3s;
+  --rotateCompass-timing: linear;
+  --rotateCompass-iteracion: infinite;
+  --rotateCompass: var(--rotateCompass-nombre) var(--rotateCompass-duracion) var(--rotateCompass-timing) var(--rotateCompass-iteracion);
+}
+
+@keyframes rotateCompass {
+  0% {
+    transform: rotate(-4deg);
+  }
+
+  33% {
+    transform: rotate(36deg);
+  }
+
+  100% {
+    transform: rotate(-4deg);
+  }
 }

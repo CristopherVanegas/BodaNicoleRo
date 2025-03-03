@@ -47,13 +47,24 @@
     width: 100%;
 }
 
-/* Resto de estilos para el contenido */
 .imageContainer {
-    width: 200px;
-    height: 200px;
-    background-color: #ddd;
+    position: absolute;
+    z-index: 10;
+    width: 450px;
+    min-height: 350px;
+    /* background-color: cyan; */
+    top: 0%;
+}
+
+.brujula {
+    position: absolute;
+    z-index: 4;
+    top: 56%;
+    right: 0%;
+    width: 100px;
+    height: auto;
     border-radius: 50%;
-    margin: 20px auto;
+    animation: var(--rotateCompass)
 }
 
 .title {
