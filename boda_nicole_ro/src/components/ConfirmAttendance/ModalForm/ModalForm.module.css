@@ -19,21 +19,44 @@
   text-align: center;
 }
 
-input,
-select,
-textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 8px;
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+h3 {
+  font-family: var(--font-title);
+  color: var(--color-title);
+  font-size: 1.4rem;
+}
+
+label {
+  font-family: var(--font-simple);
+}
+
+.inputs {
+  width: 275px;
+  margin: 0px;
+  margin-top: 14px;
+  padding: 8px 0px;
+}
+
+select {
+  text-align: center;
 }
 
 .buttonGroup {
   display: flex;
-  justify-content: space-between;
+  width: 225px;
+  justify-content: space-evenly;
 }
 
 button {
   padding: 10px;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
 }

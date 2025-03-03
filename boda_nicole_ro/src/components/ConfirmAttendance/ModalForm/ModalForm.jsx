@@ -21,6 +21,7 @@ const ModalForm = ({ onClose }) => {
     e.preventDefault();
 
     try {
+      onClose();
       await fetch(googleScriptURL, {
         method: "POST",
         mode: "no-cors",
@@ -29,7 +30,6 @@ const ModalForm = ({ onClose }) => {
       });
 
       alert("Confirmación enviada con éxito!");
-      onClose();
     } catch (error) {
       console.error("Error al enviar datos:", error);
       alert("Hubo un problema al enviar la confirmación.");
@@ -40,24 +40,24 @@ const ModalForm = ({ onClose }) => {
     <div className={styles.modalOverlay} onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className={styles.modalContent}>
         <h3>Confirma tu asistencia</h3>
-        <form onSubmit={handleSubmit}>
+        <form className={styles.formContainer} onSubmit={handleSubmit}>
           <label>Nombre Completo</label>
-          <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
+          <input className={styles.inputs} type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
 
           <label>¿Asistirás?</label>
-          <select name="asistencia" value={formData.asistencia} onChange={handleChange} required>
+          <select className={styles.inputs} name="asistencia" value={formData.asistencia} onChange={handleChange} required>
             <option value="sí">Sí</option>
             <option value="no">No</option>
           </select>
 
           <label>Alergias</label>
-          <input type="text" name="alergias" value={formData.alergias} onChange={handleChange} placeholder="Opcional" />
+          <input className={styles.inputs} type="text" name="alergias" value={formData.alergias} onChange={handleChange} placeholder="Opcional" />
 
           <label>Proponer una canción</label>
-          <input type="text" name="cancion" value={formData.cancion} onChange={handleChange} placeholder="Opcional" />
+          <input className={styles.inputs} type="text" name="cancion" value={formData.cancion} onChange={handleChange} placeholder="Opcional" />
 
           <label>Comentarios</label>
-          <textarea name="comentarios" value={formData.comentarios} onChange={handleChange} rows="3" placeholder="Opcional"></textarea>
+          <textarea className={styles.inputs} name="comentarios" value={formData.comentarios} onChange={handleChange} rows="3" placeholder="Opcional"></textarea>
 
           <div className={styles.buttonGroup}>
             <button type="submit">Enviar</button>
