@@ -18,4 +18,5 @@ p {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: var(--color-bg-general);
 }
