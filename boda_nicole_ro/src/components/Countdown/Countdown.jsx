@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import styles from './Countdown.module.css';
-import globoFlotanteIcon from '../../assets/images/globo.png';
+import Balloon from "../Extras/Balloon/Balloon";
+import brujula from "../../assets/images/brujula31.png";
+import heart_stamp_icon from "../../assets/images/icons/heart_stamp_icon.png";
 
 const Countdown = () => {
   const weddingDate = new Date('2025-09-06T11:00:00').getTime(); // Cambia la fecha al día de la boda
@@ -28,9 +30,14 @@ const Countdown = () => {
 
   return (
     <section className={styles.countdownContainer}>
-      <a className={styles.buttonContainer}>
+      {/* <a className={styles.buttonContainer}>
         <img className={styles.globoIcon} src={globoFlotanteIcon} alt="Icono Globo Flotante" />
-      </a>
+      </a> */}
+      <div className={styles.balloonContainer}>
+        <Balloon className={styles.ballonSection} />
+        <img className={styles.brujula} src={brujula} alt="Brujula" />
+        <img className={styles.heart_stamp} src={heart_stamp_icon} alt="Heart Stamp Icon" />
+      </div>
       <p className={styles.invitationText}>
         Cuenta regresiva para iniciar el embarque a la mejor fiesta
       </p>

@@ -56,6 +56,7 @@
   font-family: var(--font-title2);
   color: var(--color-text);
   margin: 26px auto;
+  margin-top: 125px;
 }
 
 .buttonContainer {
@@ -84,4 +85,39 @@
   100% {
     transform: rotate(-4deg);
   }
+}
+
+.balloonContainer {
+  position: relative;
+  /* background-color: cyan; */
+  width: 100%;
+  height: 100px;
+}
+
+.ballonSection {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.brujula {
+  position: absolute;
+  z-index: 4;
+  top: -40%;
+  right: 0%;
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  animation: var(--rotateCompass)
+}
+
+.heart_stamp {
+  position: absolute;
+  z-index: 4;
+  top: 300%;
+  left: 0%;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  transform: rotate(-25deg);
 }
