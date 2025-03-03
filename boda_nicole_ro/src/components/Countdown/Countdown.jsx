@@ -46,14 +46,17 @@ const Countdown = () => {
           <span className={styles.number}>{timeLeft.days}</span>
           <span className={styles.label}>Días</span>
         </div>
+        <div className={styles.columnLine}></div>
         <div className={styles.timeBox}>
           <span className={styles.number}>{timeLeft.hours}</span>
           <span className={styles.label}>Horas</span>
         </div>
+        <div className={styles.columnLine}></div>
         <div className={styles.timeBox}>
           <span className={styles.number}>{timeLeft.minutes}</span>
           <span className={styles.label}>Minutos</span>
         </div>
+        <div className={styles.columnLine}></div>
         <div className={styles.timeBox}>
           <span className={styles.number}>{timeLeft.seconds}</span>
           <span className={styles.label}>Segundos</span>
