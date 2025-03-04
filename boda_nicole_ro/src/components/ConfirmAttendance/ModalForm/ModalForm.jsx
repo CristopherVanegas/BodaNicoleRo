@@ -41,23 +41,33 @@ const ModalForm = ({ onClose }) => {
       <div className={styles.modalContent}>
         <h3>Confirma tu asistencia</h3>
         <form className={styles.formContainer} onSubmit={handleSubmit}>
-          <label>Nombre Completo</label>
-          <input className={styles.inputs} type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
+          <div className={styles.inputs}>
+            <label>Nombre Completo</label>
+            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
+          </div>
 
-          <label>¿Asistirás?</label>
-          <select className={styles.inputs} name="asistencia" value={formData.asistencia} onChange={handleChange} required>
-            <option value="sí">Sí</option>
-            <option value="no">No</option>
-          </select>
+          <div className={styles.inputs}>
+            <label>¿Asistirás?</label>
+            <select name="asistencia" value={formData.asistencia} onChange={handleChange} required>
+              <option value="sí">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </div>
 
-          <label>Alergias</label>
-          <input className={styles.inputs} type="text" name="alergias" value={formData.alergias} onChange={handleChange} placeholder="Opcional" />
+          <div className={styles.inputs}>
+            <label>Alergias</label>
+            <input type="text" name="alergias" value={formData.alergias} onChange={handleChange} placeholder="Opcional" />
+          </div>
 
-          <label>Proponer una canción</label>
-          <input className={styles.inputs} type="text" name="cancion" value={formData.cancion} onChange={handleChange} placeholder="Opcional" />
+          <div className={styles.inputs}>
+            <label>Proponer una canción</label>
+            <input type="text" name="cancion" value={formData.cancion} onChange={handleChange} placeholder="Opcional" />
+          </div>
 
-          <label>Comentarios</label>
-          <textarea className={styles.inputs} name="comentarios" value={formData.comentarios} onChange={handleChange} rows="3" placeholder="Opcional"></textarea>
+          <div className={styles.inputs}>
+            <label>Comentarios</label>
+            <textarea className={styles.inputs} name="comentarios" value={formData.comentarios} onChange={handleChange} rows="3" placeholder="Opcional"></textarea>
+          </div>
 
           <div className={styles.buttonGroup}>
             <button type="submit">Enviar</button>
