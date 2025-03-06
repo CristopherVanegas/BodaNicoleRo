@@ -6,7 +6,7 @@
   background-color: var(--color-bg-general);
 
   /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* Ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
