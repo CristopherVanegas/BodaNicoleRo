@@ -67,8 +67,9 @@
 }
 
 .imageContainer {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  /* height: 200px; */
+  height: auto;
   background-color: #ddd;
   border-radius: 50%;
   margin: 20px;
@@ -82,7 +83,7 @@
 }
 
 .passportIcon {
-  width: 150px;
+  width: 125px;
   height: auto;
   background-color: var(--color-bg-general);
   padding: 0px;
