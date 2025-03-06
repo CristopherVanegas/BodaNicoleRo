@@ -120,10 +120,10 @@
   position: absolute;
   top: 10%;
   right: 10px;
-  width: 100px;
+  width: 70px;
   height: auto;
   border-radius: 50%;
-  animation: rotateCompass 3s linear infinite;
+  /* animation: rotateCompass 3s linear infinite; */
 }
 
 @keyframes rotateCompass {

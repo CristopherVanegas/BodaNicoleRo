@@ -120,9 +120,9 @@
 .heart_stamp {
   position: absolute;
   z-index: 4;
-  top: 273%;
-  left: -7%;
-  width: 100px;
+  top: 265%;
+  left: -2%;
+  width: 90px;
   height: auto;
   border-radius: 50%;
   transform: rotate(-25deg);

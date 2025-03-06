@@ -2,6 +2,7 @@ import 'react';
 import styles from './InvitationCard.module.css';
 import imagenNovios1Circle from '../../assets/images/novios/1-57.jpeg';
 import brujula from '../../assets/images/brujula31.png';
+import logo_novios from "../../assets/images/logo/logo-circle.png";
 
 const InvitationCard = () => {
   return (
@@ -21,7 +22,7 @@ const InvitationCard = () => {
               <p><strong>Iglesia:</strong><br />Iglesia católica del sagrado corazón - Manta</p>
               <p><strong>Banquete:</strong><br /> [Empresa del Banquete]</p>
             </div>
-            <img className={styles.imageContainer} src={brujula} alt="Brujula" />
+            <img className={styles.imageContainer} src={logo_novios} alt="Brujula" />
           </div>
           <p className={styles.linea}></p>
           <footer className={styles.footer}>
