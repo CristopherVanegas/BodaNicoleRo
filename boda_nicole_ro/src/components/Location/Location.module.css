@@ -124,7 +124,3 @@ img {
   font-style: italic;
   font-size: 1.5rem;
 }
-
-.mapButton:hover {
-  background-color: var(--color-text);
-}
