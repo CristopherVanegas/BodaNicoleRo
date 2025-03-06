@@ -48,10 +48,30 @@ const ModalForm = ({ onClose }) => {
 
           <div className={styles.inputs}>
             <label>¿Asistirás?</label>
-            <select name="asistencia" value={formData.asistencia} onChange={handleChange} required>
-              <option value="sí">Sí</option>
-              <option value="no">No</option>
-            </select>
+            <div className={styles.radioGroup}>
+              <label>
+                <input
+                  type="radio"
+                  name="asistencia"
+                  value="sí"
+                  checked={formData.asistencia === 'sí'}
+                  onChange={handleChange}
+                  className={styles.radio}
+                />
+                Sí
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="asistencia"
+                  value="no"
+                  checked={formData.asistencia === 'no'}
+                  onChange={handleChange}
+                  className={styles.radio}
+                />
+                No
+              </label>
+            </div>
           </div>
 
           <div className={styles.inputs}>

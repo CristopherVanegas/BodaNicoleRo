@@ -16,7 +16,6 @@
   padding: 20px;
   width: 300px;
   border-radius: 10px;
-  text-align: center;
 }
 
 .formContainer {
@@ -24,23 +23,47 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 18px;
+  /* gap: 18px; */
 }
 
 h3 {
   font-family: var(--font-title);
   color: var(--color-title);
   font-size: 1.4rem;
+  margin: 8px 0px;
 }
 
 label {
   font-family: var(--font-simple);
 }
 
+.radioGroup {
+  display: flex;
+  width: 125px;
+  /* margin: auto auto; */
+  justify-content: space-evenly;
+}
+
+.radioGroup label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.radio {
+  margin-bottom: 8px;
+}
+
 .inputs {
   width: 275px;
   margin: 0px;
-  margin-top: 14px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 input,
@@ -48,7 +71,7 @@ select,
 textarea {
   width: 100%;
   padding: 8px 0;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 select {
@@ -59,6 +82,7 @@ select {
   display: flex;
   width: 225px;
   justify-content: space-evenly;
+  margin-top: 14px;
 }
 
 button {
