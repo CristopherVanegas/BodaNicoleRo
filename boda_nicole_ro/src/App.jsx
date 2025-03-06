@@ -23,13 +23,13 @@ function App() {
   return (
     <div>
       {/* Solo muestra el MusicPrompt si no se ha respondido */}
-      {isMusicPromptVisible && <MusicPrompt onMusicStart={handleMusicStart} />}
+      {/* {isMusicPromptVisible && <MusicPrompt onMusicStart={handleMusicStart} />} */}
 
       {/* Si la música está habilitada, muestra el componente MusicComponent */}
       {isMusicEnabled && <MusicComponent />}
 
       {/* Las demás secciones solo se muestran si se ha respondido al prompt */}
-      {!isMusicPromptVisible && (
+      {!isMusicPromptVisible || (
         <>
           <PassportSection />
           <Story />

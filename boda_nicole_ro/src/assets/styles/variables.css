@@ -17,7 +17,7 @@
 
   /* Animaciones */
   --rotateCompass-nombre: rotateCompass;
-  --rotateCompass-duracion: 3s;
+  --rotateCompass-duracion: 30s;
   --rotateCompass-timing: linear;
   --rotateCompass-iteracion: infinite;
   --rotateCompass: var(--rotateCompass-nombre) var(--rotateCompass-duracion) var(--rotateCompass-timing) var(--rotateCompass-iteracion);
@@ -28,11 +28,7 @@
     transform: rotate(-4deg);
   }
 
-  33% {
-    transform: rotate(36deg);
-  }
-
   100% {
-    transform: rotate(-4deg);
+    transform: rotate(356deg);
   }
 }

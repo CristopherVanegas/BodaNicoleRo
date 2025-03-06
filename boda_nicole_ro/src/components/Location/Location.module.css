@@ -46,11 +46,11 @@
 }
 
 .compassImage {
-  width: 200px;
+  width: 125px;
   height: auto;
   border-radius: 50%;
   margin: 20px;
-  animation: rotateCompass 3s linear infinite;
+  animation: var(--rotateCompass)
 }
 
 @keyframes rotateCompass {
@@ -71,6 +71,6 @@
   .locationContainer {
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 5;
+    /* gap: 5; */
   }
 }
