@@ -6,9 +6,7 @@ import brujula from "../../assets/images/brujula31.png";
 const Summary = () => {
   return (
     <section className={styles.summaryContainer}>
-      <div className={styles.sliderContainer}>
-        <div className={styles.sliderBackground} />
-      </div>
+      <div className={styles.sliderBackground} />
       <div className={styles.brujula}>
         <img className={styles.imageContainer} src={brujula} alt="Brujula" />
       </div>

@@ -4,13 +4,7 @@
   padding: 50px 20px;
   padding-top: 0px;
   background-color: #fff5f5;
-
-  /* padding: 50px 20px; */
   background-color: var(--color-bg-general);
-
-  /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-  /* min-height: 100vh; */
-  /* Ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,14 +24,6 @@
   background-color: #fff;
   padding: 6px;
   text-align: center;
-}
-
-.sliderContainer {
-  position: absolute;
-  z-index: 3;
-  height: 280px;
-  width: 100%;
-  top: 12%;
 }
 
 .brujula {
@@ -60,12 +46,12 @@
 
 .sliderBackground {
   position: absolute;
-  top: 10%;
   left: 0;
   width: 100%;
   height: 280px;
   z-index: 100;
-  /* background-color: blue; */
+  top: 0%;
+  z-index: 3;
   background-image: url("../../assets/images/backgrounds/continents.png");
   background-repeat: repeat-x;
   background-size: auto 280px;
