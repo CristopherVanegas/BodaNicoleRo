@@ -2,13 +2,14 @@
   position: relative;
   text-align: center;
   padding: 50px 20px;
+  padding-top: 0px;
   background-color: #fff5f5;
 
   /* padding: 50px 20px; */
   background-color: var(--color-bg-general);
 
   /* Estilos para ocupar toda la pantalla y centrar el contenido verticalmente */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* Ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
