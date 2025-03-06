@@ -19,7 +19,9 @@ const Location = () => {
             rel="noopener noreferrer"
             className={styles.mapButton}
           >
-            <img
+            <p>
+              Google Maps link
+            </p>            <img
               src={iconoMaps}
               alt="Icono Google Maps"
               className={styles.mapIcon}
@@ -37,6 +39,9 @@ const Location = () => {
             rel="noopener noreferrer"
             className={styles.mapButton}
           >
+            <p>
+              Google Maps link
+            </p>
             <img
               src={iconoMaps}
               alt="Icono Google Maps"
