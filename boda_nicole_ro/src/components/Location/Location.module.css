@@ -69,7 +69,7 @@
 
 @media (min-width: 800px) {
   .locationContainer {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     /* gap: 5; */
   }

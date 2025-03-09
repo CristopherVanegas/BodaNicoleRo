@@ -3,6 +3,7 @@ import styles from './Countdown.module.css';
 import Balloon from "../Extras/Balloon/Balloon";
 import brujula from "../../assets/images/brujula31.png";
 import heart_stamp_icon from "../../assets/images/icons/heart_stamp_icon.png";
+import nuevo_viaje from "../../assets/images/texts/nuevo_viaje.png";
 
 const Countdown = () => {
   const weddingDate = new Date('2025-09-06T11:00:00').getTime(); // Cambia la fecha al día de la boda
@@ -36,6 +37,7 @@ const Countdown = () => {
       <div className={styles.balloonContainer}>
         <Balloon className={styles.ballonSection} />
         <img className={styles.brujula} src={brujula} alt="Brujula" />
+        <img className={styles.nuevo_viaje} src={nuevo_viaje} alt="Nuevo Viaje" />
         <img className={styles.heart_stamp} src={heart_stamp_icon} alt="Heart Stamp Icon" />
       </div>
       <p className={styles.invitationText}>
