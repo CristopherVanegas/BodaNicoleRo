@@ -95,6 +95,7 @@
   /* Por defecto, en móviles será vertical */
   align-items: center;
   gap: 20px;
+  width: 300px;
 }
 
 /* Estilos para cada cuenta bancaria */
@@ -111,6 +112,16 @@
 .accountBox h3 {
   color: var(--color-title);
   font-size: 1rem;
+  color: var(--color-title);
+  font-family: var(--font-simple);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p,
+strong {
+  color: var(--color-title);
+  font-size: 0.8rem;
   color: var(--color-title);
   font-family: var(--font-simple);
   text-transform: uppercase;

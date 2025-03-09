@@ -28,10 +28,13 @@ const GiftSection = () => {
             </a>
             <h3>Banco Pichincha</h3>
             <p>
-              <strong>Cuenta de Ahorros:</strong> 4227865200
+              <strong>Ahorros: </strong> 4227865200
             </p>
             <p>
-              <strong>Titular:</strong>Lorena Álava
+              <strong>Titular: </strong>Lorena Álava
+            </p>
+            <p>
+              <strong>C.I.: </strong>1303831828
             </p>
           </div>
         </div>
