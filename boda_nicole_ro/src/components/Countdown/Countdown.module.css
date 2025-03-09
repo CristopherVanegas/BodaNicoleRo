@@ -118,18 +118,18 @@
 }
 
 .nuevo_viaje {
-  width: 230px;
+  width: 250px;
   height: auto;
-  transform: rotate(35deg);
+  transform: rotate(25deg);
   position: absolute;
-  left: 10%;
-  top: -40%;
+  left: 5%;
+  top: -45%;
 }
 
 .heart_stamp {
   position: absolute;
   z-index: 4;
-  top: 265%;
+  top: -205%;
   left: -2%;
   width: 90px;
   height: auto;
