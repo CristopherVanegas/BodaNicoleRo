@@ -28,9 +28,8 @@
 
 .brujula {
   position: absolute;
-  z-index: 10;
   width: 350px;
-  min-height: 550px;
+  min-height: 650px;
 }
 
 .imageContainer {
@@ -116,18 +115,14 @@
 .title {
   display: flex;
   justify-content: center;
-  font-size: 2.5rem;
-  color: var(--color-title);
-  font-family: var(--font-title);
   margin-top: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .title>p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--color-title);
-  margin-bottom: 15px;
+  font-family: var(--font-title);
+  margin-bottom: 8px;
   text-transform: uppercase;
 }
 
