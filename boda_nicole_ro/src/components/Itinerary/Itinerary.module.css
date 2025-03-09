@@ -19,20 +19,13 @@
   top: 8%;
   left: 0;
   width: 100%;
-  /* Puedes ajustar el ancho deseado */
   height: 450px;
-  /* Ajusta la altura deseada para el slider */
   z-index: 0;
-  /* Se coloca detrás del contenido */
 
   background-image: url('../../assets/images/backgrounds/continents.png');
-  /* Reemplaza con la ruta de tu imagen */
   background-repeat: repeat-x;
-  /* Repite la imagen horizontalmente */
   background-size: auto;
-  /* O usa 'cover' o 'contain' según prefieras */
 
-  /* Animación para deslizar el fondo */
   animation: slideBg var(--slide-time) linear infinite;
 }
 
@@ -84,7 +77,7 @@
 
 .itineraryImage {
   z-index: 0;
-  width: 100%;
+  width: 70%;
   height: auto;
   border-radius: 10px;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
@@ -99,9 +92,8 @@
 }
 
 /* 📌 Ajuste para celulares y pantallas pequeñas */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .itineraryImage {
     max-width: 90%;
-    /* Imagen más grande en móviles */
   }
-}
+} */
