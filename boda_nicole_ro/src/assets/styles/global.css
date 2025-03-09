@@ -5,6 +5,10 @@
   display: none;
 }
 
+* {
+  box-sizing: content-box;
+}
+
 /* Evitar el desplazamiento horizontal */
 body {
   overflow-x: hidden;
