@@ -5,7 +5,13 @@
   --color-text: #333;
   --font-title: "Playfair Display", serif;
   /* --font-title2: "Whisper", cursive; */
-  --font-title2: "Qwigley", cursive;
+  /* --font-title2: "Qwigley", cursive; */
+  /* --font-title2: "Birthstone", cursive; */
+  /* --font-title2: "Great Vibes", cursive; */
+  /* --font-title2: "Style Script", cursive; */
+  --font-title2: "Carattere", cursive;
+
+
   --font-simple: "Montserrat", sans-serif;
   --font-body: "Libre Baskerville", serif;
   --color-bg-general: #f9f7f5;

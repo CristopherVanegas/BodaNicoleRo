@@ -50,7 +50,7 @@
 .text2 {
     font-family: var(--font-title2);
     color: var(--color-title);
-    font-weight: 400;
+    font-weight: 100;
     font-size: 4rem;
     text-transform: none;
     margin: 4px;
