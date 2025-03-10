@@ -24,7 +24,7 @@
 
   --tambaleo-nombre: tambaleo;
   --tambaleo-inicial: 8deg;
-  --tambaleo-final: -8deg;
+  --tambaleo-final: -8 deg;
   --tambaleo-duracion: 2s;
   --tambaleo-timing: ease-in-out;
   --tambaleo-iteracion: infinite;
