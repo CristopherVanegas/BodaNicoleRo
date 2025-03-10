@@ -68,12 +68,13 @@
 }
 
 .invitationText {
-  width: 300px;
+  width: 350px;
   font-family: var(--font-cormorant-garamond);
   color: var(--color-title);
   text-transform: none;
   font-weight: 300;
   font-size: 2rem;
+  text-align: center;
 
   margin: 26px auto;
   margin-top: 0px;
