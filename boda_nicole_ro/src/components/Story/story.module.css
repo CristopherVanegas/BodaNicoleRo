@@ -106,16 +106,15 @@
     width: 400px;
     height: auto;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 150px;
-    background-color: aqua;
 }
 
 .nuevo_viaje {
     position: absolute;
     width: 250px;
     height: auto;
-    transform: rotate(25deg);
+    transform: rotate(16deg);
     left: 0%;
     top: 0%;
 }
