@@ -8,6 +8,17 @@
   align-items: center;
 }
 
+.imageContainer {
+  margin-top: 32px;
+}
+
+.balloon {
+  width: 80px;
+  height: auto;
+  margin: 0px;
+  animation: var(--tambaleo);
+}
+
 .timer {
   display: flex;
   justify-content: center;
@@ -57,12 +68,15 @@
 }
 
 .invitationText {
-  width: 250px;
-  font-size: 2rem;
+  width: 350px;
   font-family: var(--font-title2);
-  color: var(--color-text);
+  color: var(--color-title);
+  text-transform: none;
+  font-weight: 400;
+  font-size: 3rem;
+
   margin: 26px auto;
-  margin-top: 125px;
+  margin-top: 0px;
 }
 
 .buttonContainer {
@@ -91,48 +105,4 @@
   100% {
     transform: rotate(-4deg);
   }
-}
-
-.balloonContainer {
-  position: relative;
-  /* background-color: cyan; */
-  width: 400px;
-  height: 100px;
-}
-
-.ballonSection {
-  position: absolute;
-  width: 100%;
-  z-index: 100;
-}
-
-.brujula {
-  position: absolute;
-  z-index: 4;
-  top: -40%;
-  right: 0%;
-  width: 90px;
-  height: auto;
-  border-radius: 50%;
-  animation: var(--rotateCompass)
-}
-
-.nuevo_viaje {
-  width: 250px;
-  height: auto;
-  transform: rotate(25deg);
-  position: absolute;
-  left: 5%;
-  top: -45%;
-}
-
-.heart_stamp {
-  position: absolute;
-  z-index: 4;
-  top: -205%;
-  left: -2%;
-  width: 90px;
-  height: auto;
-  border-radius: 50%;
-  transform: rotate(-25deg);
 }
