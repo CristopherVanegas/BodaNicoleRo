@@ -1,6 +1,6 @@
 import 'react'
 import styles from './Destino.module.css';
-import iconoMaps from '../../../assets/images/icons/maps-icon.png';
+import iconoMaps from '../../../assets/images/icons/google-maps-icon.png';
 
 
 const Destino = () => {

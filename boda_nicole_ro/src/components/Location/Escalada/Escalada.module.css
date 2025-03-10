@@ -92,8 +92,8 @@ p {
     color: var(--color-title);
 }
 
-img {
-    margin-top: 16px;
+.mapIcon {
+    margin-top: 24px;
     width: 55px;
     height: 55px;
 }

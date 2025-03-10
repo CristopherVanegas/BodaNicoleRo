@@ -1,6 +1,6 @@
 import 'react'
 import styles from './Escalada.module.css';
-import iconoMaps from '../../../assets/images/icons/maps-icon.png';
+import iconoMaps from '../../../assets/images/icons/google-maps-icon.png';
 
 const Escalada = () => {
     return (
@@ -17,7 +17,8 @@ const Escalada = () => {
                 >
                     <p>
                         Google Maps link
-                    </p>            <img
+                    </p>
+                    <img
                         src={iconoMaps}
                         alt="Icono Google Maps"
                         className={styles.mapIcon}
