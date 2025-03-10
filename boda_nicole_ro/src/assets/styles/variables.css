@@ -4,7 +4,7 @@
   --color-background: #fff5f5;
   --color-text: #333;
   --font-title: "Playfair Display", serif;
-  --font-title2: "Dancing Script", cursive;
+  --font-title2: "Whisper", cursive;
   --font-simple: "Montserrat", sans-serif;
   --font-body: "Libre Baskerville", serif;
   --color-bg-general: #f9f7f5;
@@ -21,6 +21,15 @@
   --rotateCompass-timing: linear;
   --rotateCompass-iteracion: infinite;
   --rotateCompass: var(--rotateCompass-nombre) var(--rotateCompass-duracion) var(--rotateCompass-timing) var(--rotateCompass-iteracion);
+
+  --tambaleo-nombre: tambaleo;
+  --tambaleo-inicial: 8deg;
+  --tambaleo-final: -8deg;
+  --tambaleo-duracion: 2s;
+  --tambaleo-timing: ease-in-out;
+  --tambaleo-iteracion: infinite;
+  --tambaleo-direccion: alternate;
+  --tambaleo: var(--tambaleo-nombre) var(--tambaleo-duracion) var(--tambaleo-timing) var(--tambaleo-iteracion) var(--tambaleo-direccion);
 }
 
 @keyframes rotateCompass {
@@ -30,5 +39,15 @@
 
   100% {
     transform: rotate(356deg);
+  }
+}
+
+@keyframes tambaleo {
+  0% {
+    transform: rotate(var(--tambaleo-inicial));
+  }
+
+  100% {
+    transform: rotate(var(--tambaleo-final));
   }
 }
