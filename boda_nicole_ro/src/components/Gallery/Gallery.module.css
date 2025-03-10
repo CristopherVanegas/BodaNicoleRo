@@ -58,7 +58,6 @@
   font-style: italic;
   font-size: 2rem;
   width: 350px;
-  /* margin-top: 0px; */
   margin-bottom: 40px;
 }
 
@@ -69,31 +68,22 @@
   align-items: center;
 }
 
-/* Estilos para cada cuenta bancaria */
-/* .buttonBox {
-  background-color: white;
-  padding: 10px 15px;
-  width: 100%;
-  max-width: 350px;
-  border-radius: 32%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-} */
-
 .confirmButton {
-  /* background-color: var(--color-bg-general); */
   cursor: pointer;
-  transition: background 0.3s;
+  animation: rotateImage 2s ease-in-out infinite;
 }
 
 .cameraIcon {
   width: 100px;
   height: auto;
-  /* background-color: var(--color-bg-general); */
   padding: 0px;
   margin: 0px;
-  /* margin: ; */
-  animation: rotateImage 2s ease-in-out infinite;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.cameraIcon:hover {
+  transform: scale(1.1);
 }
 
 @keyframes rotateImage {

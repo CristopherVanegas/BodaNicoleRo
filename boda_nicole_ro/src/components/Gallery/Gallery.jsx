@@ -24,21 +24,18 @@ const Gallery = () => {
           recuerdo haciendo click en el ícono de la cámara de fotos!
         </p>
         <div className={styles.buttonContainer}>
-          <div className={styles.buttonBox}>
-            <a
-              href={googleDriveLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.confirmButton}
-              onClick={console.log("Copiado!")}
-            >
-              <img
-                className={styles.cameraIcon}
-                src={cameraIcon}
-                alt="Icono Cámara"
-              />
-            </a>
-          </div>
+          <a
+            href={googleDriveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.confirmButton}
+          >
+            <img
+              className={styles.cameraIcon}
+              src={cameraIcon}
+              alt="Icono Cámara"
+            />
+          </a>
         </div>
       </div>
     </section>
