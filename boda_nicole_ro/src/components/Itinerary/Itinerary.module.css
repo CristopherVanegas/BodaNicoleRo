@@ -77,7 +77,7 @@
 
 .itineraryImage {
   z-index: 0;
-  width: 70%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
@@ -92,8 +92,8 @@
 }
 
 /* 📌 Ajuste para celulares y pantallas pequeñas */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .itineraryImage {
     max-width: 90%;
   }
-} */
+}
