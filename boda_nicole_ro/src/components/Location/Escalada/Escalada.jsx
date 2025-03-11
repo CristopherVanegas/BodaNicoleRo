@@ -6,7 +6,7 @@ const Escalada = () => {
     return (
         <div className={styles.content}>
             <div className={styles.locationBox}>
-                <h3 className={styles.title}>Escalada</h3>
+                <h3 className={styles.title}>Primera Escalada</h3>
                 <p>Iglesia católica del sagrado corazón</p>
                 <p>Manta</p>
                 <a
