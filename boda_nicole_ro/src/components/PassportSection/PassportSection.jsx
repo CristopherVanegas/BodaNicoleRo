@@ -1,4 +1,6 @@
 import "react";
+import { usePage } from "../../context/PageContext";
+
 import styles from "./PassportSection.module.css";
 import logoNovios from "../../assets/images/logo/logo-circle.png";
 import brujula from "../../assets/images/brujula31.png";
@@ -6,6 +8,7 @@ import Balloon from "../Extras/Balloon/Balloon";
 // import Rope from "../Extras/Rope/Rope";
 
 const PassportSection = () => {
+  const { page_name } = usePage();
   return (
     <section className={styles.passportContainer} id="PassportSection">
       <div className={styles.sliderBackground} />
@@ -21,7 +24,7 @@ const PassportSection = () => {
           alt="Logo Novios"
         />
         <h2 className={styles.h3}>A la boda de</h2>
-        <h2 className={styles.subtitle}>Nicole & Diego</h2>
+        <h2 className={styles.subtitle}>{page_name}</h2>
       </div>
     </section>
   );

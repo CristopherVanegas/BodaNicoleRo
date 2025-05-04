@@ -11,7 +11,7 @@ import HeartCollage from "../HeartCollage/HeartCollage";
 
 const Gallery = () => {
   const googleDriveLink =
-    "https://drive.google.com/drive/folders/TU_CARPETA_ID"; // Reemplaza con tu enlace real
+    "https://drive.google.com/drive/folders/1CXmzpVHxl1wn1r6AH6PBEdFgYeBo_hpB?usp=sharing"; // Reemplaza con tu enlace real
 
   return (
     <section className={styles.galleryContainer}>

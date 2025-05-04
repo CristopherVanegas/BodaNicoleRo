@@ -1,9 +1,12 @@
 import "react";
+import { usePage } from "../../context/PageContext";
+
 import styles from "./Summary.module.css";
 import equip from "./../../assets/images/gif/equip1.gif";
 import brujula from "../../assets/images/brujula31.png";
 
 const Summary = () => {
+  const { novio_name, novia_name } = usePage();
   return (
     <section className={styles.summaryContainer}>
       <div className={styles.sliderBackground} />
@@ -13,15 +16,15 @@ const Summary = () => {
       <div className={styles.summaryBox}>
         <div className={styles.content}>
           <div className={styles.title}>
-            <p>Nicole</p>
+            <p>{novio_name}</p>
             <p>&</p>
-            <p>Diego</p>
+            <p>{novia_name}</p>
           </div>
 
           <p className={styles.linea}></p>
           <div className={styles.detailSection}>
             <p className={styles.detail}>
-              <strong>📅 Fecha</strong>15 / 06 / 2025
+              <strong>📅 Fecha</strong>06 / 09 / 2025
             </p>
             <p className={styles.detail}>
               <strong>⏰ Hora</strong>4:00 PM
