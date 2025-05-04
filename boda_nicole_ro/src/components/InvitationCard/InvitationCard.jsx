@@ -41,10 +41,6 @@ const InvitationCard = () => {
                 <br />
                 Iglesia católica del sagrado corazón - Manta
               </p>
-              <p>
-                <strong>Banquete:</strong>
-                <br /> [Empresa del Banquete]
-              </p>
             </div>
             <img
               className={styles.imageContainer}
