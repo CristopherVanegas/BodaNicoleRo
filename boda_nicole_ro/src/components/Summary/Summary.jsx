@@ -27,7 +27,7 @@ const Summary = () => {
               <strong>📅 Fecha</strong>06 / 09 / 2025
             </p>
             <p className={styles.detail}>
-              <strong>⏰ Hora</strong>4:00 PM
+              <strong>⏰ Hora</strong>11:00 AM
             </p>
             <p className={styles.detail}>
               <strong>📍 Lugar</strong>Manta
