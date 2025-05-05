@@ -34,12 +34,12 @@ const InvitationCard = () => {
               <p>
                 <strong>Destino:</strong>
                 <br />
-                La Quinta
+                La Quinta de Any
               </p>
               <p>
                 <strong>Iglesia:</strong>
                 <br />
-                Iglesia católica del sagrado corazón - Manta
+                Iglesia Católica del Sagrado Corazón de Jesús - Manta
               </p>
             </div>
             <img

@@ -9,7 +9,7 @@ const GiftSection = () => {
       <div className={styles.sliderBackground} />
       <div className={styles.content}>
         <img className={styles.giftIcon} src={giftIcon} alt="Icono Regalo" />
-        <h2 className={styles.title}>Regalo en Sobre Sellado</h2>
+        {/* <h2 className={styles.title}>Regalo</h2> */}
         <p className={styles.text}>
           Lo más importante es su presencia, pero si deseas hacernos un regalo,
           aquí dejamos nuestro número de cuenta.
