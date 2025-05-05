@@ -1,17 +1,18 @@
-import { useState } from 'react';
-import PropTypes from 'prop-types';
-import styles from './ModalForm.module.css';
+import { useState } from "react";
+import PropTypes from "prop-types";
+import styles from "./ModalForm.module.css";
 
 const ModalForm = ({ onClose }) => {
   const [formData, setFormData] = useState({
-    nombre: '',
-    asistencia: 'sí',
-    alergias: '',
-    cancion: '',
-    comentarios: ''
+    nombre: "",
+    asistencia: "sí",
+    alergias: "",
+    cancion: "",
+    comentarios: "",
   });
 
-  const googleScriptURL = "https://script.google.com/macros/s/AKfycbzQLbCZcFiWckRFwL6ZhaBu65VdPB-bkgEWrYXb_yFIMU5lGDWtxYMq5fQSKnllPD7_/exec";
+  const googleScriptURL =
+    "https://script.google.com/macros/s/AKfycbzQLbCZcFiWckRFwL6ZhaBu65VdPB-bkgEWrYXb_yFIMU5lGDWtxYMq5fQSKnllPD7_/exec";
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -26,7 +27,7 @@ const ModalForm = ({ onClose }) => {
         method: "POST",
         mode: "no-cors",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(formData),
       });
 
       alert("Confirmación enviada con éxito!");
@@ -37,13 +38,22 @@ const ModalForm = ({ onClose }) => {
   };
 
   return (
-    <div className={styles.modalOverlay} onClick={(e) => e.target === e.currentTarget && onClose()}>
+    <div
+      className={styles.modalOverlay}
+      onClick={(e) => e.target === e.currentTarget && onClose()}
+    >
       <div className={styles.modalContent}>
         <h3>Confirma tu asistencia</h3>
         <form className={styles.formContainer} onSubmit={handleSubmit}>
           <div className={styles.inputs}>
             <label>Nombre Completo</label>
-            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
+            <input
+              type="text"
+              name="nombre"
+              value={formData.nombre}
+              onChange={handleChange}
+              required
+            />
           </div>
 
           <div className={styles.inputs}>
@@ -54,9 +64,10 @@ const ModalForm = ({ onClose }) => {
                   type="radio"
                   name="asistencia"
                   value="sí"
-                  checked={formData.asistencia === 'sí'}
+                  checked={formData.asistencia === "sí"}
                   onChange={handleChange}
                   className={styles.radio}
+                  required
                 />
                 Sí
               </label>
@@ -65,9 +76,10 @@ const ModalForm = ({ onClose }) => {
                   type="radio"
                   name="asistencia"
                   value="no"
-                  checked={formData.asistencia === 'no'}
+                  checked={formData.asistencia === "no"}
                   onChange={handleChange}
                   className={styles.radio}
+                  required
                 />
                 No
               </label>
@@ -76,22 +88,43 @@ const ModalForm = ({ onClose }) => {
 
           <div className={styles.inputs}>
             <label>Alergias</label>
-            <input type="text" name="alergias" value={formData.alergias} onChange={handleChange} placeholder="Opcional" />
+            <input
+              type="text"
+              name="alergias"
+              value={formData.alergias}
+              onChange={handleChange}
+              placeholder="Opcional"
+            />
           </div>
 
           <div className={styles.inputs}>
             <label>Proponer una canción</label>
-            <input type="text" name="cancion" value={formData.cancion} onChange={handleChange} placeholder="Opcional" />
+            <input
+              type="text"
+              name="cancion"
+              value={formData.cancion}
+              onChange={handleChange}
+              placeholder="Opcional"
+            />
           </div>
 
           <div className={styles.inputs}>
             <label>Comentarios</label>
-            <textarea className={styles.inputs} name="comentarios" value={formData.comentarios} onChange={handleChange} rows="3" placeholder="Opcional"></textarea>
+            <textarea
+              className={styles.inputs}
+              name="comentarios"
+              value={formData.comentarios}
+              onChange={handleChange}
+              rows="3"
+              placeholder="Opcional"
+            ></textarea>
           </div>
 
           <div className={styles.buttonGroup}>
             <button type="submit">Enviar</button>
-            <button type="button" onClick={onClose}>Cerrar</button>
+            <button type="button" onClick={onClose}>
+              Cerrar
+            </button>
           </div>
         </form>
       </div>
