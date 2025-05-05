@@ -1,7 +1,7 @@
 .balloon {
   width: auto;
   height: 135px;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   animation: globoRecorrido 7s linear infinite;
@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width:430px) {
+@media (max-width: 430px) {
   .balloon {
     width: auto;
     height: 125px;

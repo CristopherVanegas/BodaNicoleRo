@@ -23,6 +23,18 @@
   z-index: 100;
 }
 
+@media (min-width: 768px) {
+  .ballonSection {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    /* background-color: cyan; */
+    margin-right: 400px;
+    /* margin-left: 100px; */
+    z-index: 100;
+  }
+}
+
 .brujula {
   position: absolute;
   z-index: 4;
@@ -30,7 +42,7 @@
   right: 2%;
   width: 95px;
   height: auto;
-  animation: var(--rotateCompass)
+  animation: var(--rotateCompass);
 }
 
 /* Slider de fondo: se mueve de derecha a izquierda de forma lenta */

@@ -14,6 +14,7 @@ const PassportSection = () => {
       <div className={styles.sliderBackground} />
       <h1 className={styles.title}>Pasaporte</h1>
       <div className={styles.ballonSection}>
+        {/* <Balloon /> */}
         <Balloon className={styles.ballonSection} />
         <img className={styles.brujula} src={brujula} alt="Brujula" />
       </div>
