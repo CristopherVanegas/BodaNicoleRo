@@ -34,7 +34,7 @@ const InvitationCard = () => {
               <p>
                 <strong>Destino:</strong>
                 <br />
-                La Quinta de Any
+                La Quinta de Any - Portoviejo
               </p>
               <p>
                 <strong>Iglesia:</strong>
